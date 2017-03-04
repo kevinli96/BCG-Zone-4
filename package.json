@@ -1,0 +1,19 @@
+{
+  "name": "bcga_zone4",
+  "version": "1.0.0",
+  "description": "[Modern Business](http://startbootstrap.com/template-overviews/modern-business/) is a multipurpose, full website template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template includes 17 unique HTML pages and a working PHP contact form.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinli96/BCGA-Zone-4-Women-s-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinli96/BCGA-Zone-4-Women-s-/issues"
+  },
+  "homepage": "https://github.com/kevinli96/BCGA-Zone-4-Women-s-#readme"
+}
