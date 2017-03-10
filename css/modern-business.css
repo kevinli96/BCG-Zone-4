@@ -1,14 +1,13 @@
-/*!
- * Start Bootstrap - Modern Business (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-
 /* Global Styles */
 
 html,
 body {
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, a, p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -23,6 +22,16 @@ body {
 
 .img-hover:hover {
     opacity: 0.8;
+}
+
+iframe {
+    margin-left: 240px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 /* Home Page Carousel */
