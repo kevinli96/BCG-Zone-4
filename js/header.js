@@ -10,7 +10,7 @@ $(window).on("load", function() {
         var title = $(".title");
         if (title.length > 0) {
         $('html,body').animate({
-            scrollTop: title.offset().top + 250
+            scrollTop: title.offset().top + 210
         }, 'slow');
       }
     }

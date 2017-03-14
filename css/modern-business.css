@@ -16,6 +16,12 @@ body {
     /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+.handicapImage {
+    width: 70%;
+    height: 70%;
+    margin-left: 200px;
+}
+
 .img-portfolio {
     margin-bottom: 30px;
 }
@@ -30,7 +36,7 @@ iframe {
 
 .title {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
