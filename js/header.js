@@ -9,12 +9,15 @@ $(window).on("load", function() {
     function scrollToAnchor() {
         var title = $(".title");
         if (title.length > 0) {
-        $('html,body').animate({
-            scrollTop: title.offset().top + 210
-        }, 'slow');
-      }
+            $('html,body').animate({
+                scrollTop: title.offset().top + 225
+            }, 'slow');
+        }
     }
 
-    scrollToAnchor();
+    console.log($(window).width())
+    if ($(window).width() > 768) {
+        scrollToAnchor();
+    }
 
 });

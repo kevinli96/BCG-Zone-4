@@ -10,14 +10,39 @@ h1, h2, h3, h4, h5, h6, a, p {
     font-family: 'Open Sans', sans-serif;
 }
 
-body {
-    padding-top: 50px;
+.nav-tabs {
+    margin-top: 30px;
+}
 
-    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+.img-portfolio {
+    margin-bottom: 15px;
+}
+
+.search {
+    margin-bottom: 30px;
+}
+
+#executiveTable {
+    margin-top: 30px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 500px;
+    height: 350px;
 }
 
 .championPhotos {
-    margin-left: 200px;
+    font-size: 10px;
+}
+
+.championPhotos > td {
+    width: 80px;
 }
 
 .photoHeader {
@@ -25,75 +50,123 @@ body {
 }
 
 .photo {
-    width: 175px;
-    height: 230px;
-    margin-right: 100px;
+    width: 80px;
+    height: 100px;
 }
 
-.handicapImage {
-    width: 70%;
-    height: 70%;
-    margin-left: 200px;
-}
-
-.img-portfolio {
-    margin-bottom: 30px;
-}
-
-.img-hover:hover {
-    opacity: 0.8;
-}
-
-iframe {
-    margin-left: 240px;
-}
-
-.title {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-
-/* Home Page Carousel */
-
-header.carousel {
-    height: 50%;
-}
-
-header.carousel .item,
-header.carousel .item.active,
-header.carousel .carousel-inner {
-    height: 100%;
-}
-
-header.carousel .fill {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-}
-
-/* Footer Styles */
-
-footer {
-    margin: 50px 0;
-}
-
-/* Responsive Styles */
-
-@media (max-width: 991px) {
-    .customer-img,
-    .img-related {
-        margin-bottom: 30px;
-    }
-}
-
-@media (max-width: 767px) {
-    .img-portfolio {
-        margin-bottom: 15px;
-    }
-
+@media screen and (min-width: 500px) {
     header.carousel .carousel {
         height: 70%;
+    }
+
+    header.carousel {
+        height: 50%;
+    }
+
+    header.carousel .item,
+    header.carousel .item.active,
+    header.carousel .carousel-inner {
+        height: 100%;
+    }
+
+    header.carousel .fill {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        padding-top: 50px;
+    }
+
+    iframe {
+        width: 550px;
+        height: 400px;
+        margin-left: 300px;
+    }
+
+    .title {
+        margin-top: 50px;
+    }
+
+    .search {
+        margin: auto;
+    }
+
+    .photoHeader {
+        margin-bottom: 30px;
+    }
+
+    .photo {
+        width: 175px;
+        height: 230px;
+        margin-right: 100px;
+    }
+
+    .handicapImage {
+        width: 70%;
+        height: 70%;
+        margin-left: 200px;
+    }
+
+    .img-portfolio {
+        margin-bottom: 30px;
+    }
+
+    .img-hover:hover {
+        opacity: 0.8;
+    }
+
+    footer {
+        margin: 50px 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-left, .navbar-right {
+        float: none !important;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-nav {
+        float: none !important;
+        margin-top: 7.5px;
+    }
+
+    .navbar-nav > li {
+        float: none;
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .collapse.in {
+        display: block !important;
     }
 }
