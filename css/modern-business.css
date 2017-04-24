@@ -6,11 +6,13 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, a, p, .title {
+h1, h2, h3, h4, h5, h6, a, p {
     font-family: 'Open Sans', sans-serif;
 }
 
-
+.team1, .team2, .team3 {
+  overflow-x: auto;
+}
 
 .nav-tabs {
     margin-top: 30px;
@@ -28,16 +30,17 @@ h1, h2, h3, h4, h5, h6, a, p, .title {
     margin-top: 30px;
 }
 
+
 .title {
     text-align: center;
     margin-top: 70px;
     margin-bottom: 20px;
 }
 
-/*iframe {
-    width: 500px;
-    height: 350px;
-}*/
+iframe {
+    width: 400px;
+    height: 400px;
+}
 
 .championPhotos {
     font-size: 10px;
@@ -79,13 +82,14 @@ h1, h2, h3, h4, h5, h6, a, p, .title {
     }
 }
 
+
 @media screen and (min-width: 768px) {
     body {
         padding-top: 50px;
     }
 
     iframe {
-        height: 500px;
+        height: 700px;
         width: 700px;
     }
     .title {
