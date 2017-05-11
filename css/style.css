@@ -6,6 +6,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+
 h1, h2, h3, h4, h5, h6, a, p {
     font-family: 'Open Sans', sans-serif;
 }
@@ -57,6 +58,22 @@ iframe {
 .photo {
     width: 80px;
     height: 100px;
+}
+
+/*.navbar-nav > li > a, .navbar-brand {
+    color: black !important;
+}*/
+
+
+#executivePhoto {
+  margin-bottom: 20px;
+}
+.figure-caption {
+  margin-top: 20px;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    color: white !important;
 }
 
 @media screen and (min-width: 500px) {
