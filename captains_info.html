@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>BCGA Zone 4 Women</title>
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/login.css" rel="stylesheet" />
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1 class="title">Captain's Info</h1>
+        <hr>
+
+
+        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+          <div class="modal-dialog">
+            <div class="loginmodal-container">
+              <h1>Login</h1><br>
+              <form>
+                <input type="text" name="user" placeholder="Username">
+                <input type="password" name="pass" placeholder="Password">
+                <input type="submit" name="login" class="login loginmodal-submit" value="Login">
+              </form>
+
+
+            </div>
+          </div>
+        </div>
+
+        <div id="menu">
+          <div class="list-group">
+            <a class="list-group-item" href="docs/captain/calendar_of_duties.pdf" target="_blank">Calendar of Duties</a>
+            <a class="list-group-item" href="docs/captain/captains_manual.pdf" target="_blank">Captain's Manual</a>
+            <a style="cursor:pointer" class="list-group-item" data-toggle="collapse" data-target="#womens_program" data-parent="#menu"><span class="glyphicon glyphicon-chevron-down pull-right"></span>Women's Program</a>
+            <div id="womens_program" class="sublinks collapse">
+              <a class="list-group-item small" href="docs/captain/womens_program_outline.pdf" target="_blank"><span class="glyphicon glyphicon-chevron-right"></span>Outline</a>
+              <a class="list-group-item small" href="docs/captain/golf_canada_pin_round.pdf" target="_blank"><span class="glyphicon glyphicon-chevron-right"></span>Golf Canada Pin Round</a>
+              <a class="list-group-item small" href="docs/captain/bc_pin_round.pdf" target="_blank"><span class="glyphicon glyphicon-chevron-right"></span>BC Pin Round</a>
+              <a class="list-group-item small" href="docs/captain/DOF_submission.pdf" target="_blank"><span class="glyphicon glyphicon-chevron-right"></span>Dorothy Olive Franklin Submission</a>
+              <a class="list-group-item small" href="docs/captain/beat_the_champ_submission.pdf" target="_blank"><span class="glyphicon glyphicon-chevron-right"></span>Beat The Champ Submission</a>
+              <a class="list-group-item small" href="docs/captain/combined_payment.pdf" target="_blank"><span class="glyphicon glyphicon-chevron-right"></span>Combined Payment Form</a>
+              <!-- <a class="list-group-item small" href="#" target="_blank"><span class="glyphicon glyphicon-chevron-right"></span>Results</a> -->
+            </div>
+            <a style="cursor:pointer" class="list-group-item" data-toggle="collapse" data-target="#pin_orders" data-parent="#menu"><span class="glyphicon glyphicon-chevron-down pull-right"></span>Pin Orders</a>
+            <div id="pin_orders" class="sublinks collapse">
+              <a class="list-group-item small" href="docs/captain/pin_sheet.pdf" target="_blank"><span class="glyphicon glyphicon-chevron-right"></span>Pin Sheet</a>
+              <a class="list-group-item small" href="docs/captain/pin_order.pdf" target="_blank"><span class="glyphicon glyphicon-chevron-right"></span>BC Pin Order Form</a>
+              <a class="list-group-item small" href="docs/captain/golf_canada_pin_round.pdf" target="_blank"><span class="glyphicon glyphicon-chevron-right"></span>Golf Canada Pin Order Form</a>
+            </div>
+            <a class="list-group-item" target="_blank">Fixture Sheet</a>
+            <a class="list-group-item" target="_blank">Captains Meetings</a>
+            <a class="list-group-item" href="#" data-toggle="modal" data-target="#login-modal">Secure Area</a>
+          </div>
+        </div>
+        <!-- <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#firstImage">First</a></li>
+          <li><a data-toggle="tab" href="#secondImage">Second</a></li>
+        </ul> -->
+        <div class="tab-content">
+          <div id="firstImage" class="tab-pane fade in active">
+
+          </div>
+          <div id="secondImage" class="tab-pane fade">
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- /.container -->
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/footer.js"></script>
+  <script src="js/login.js"></script>
+</body>
+
+</html>
