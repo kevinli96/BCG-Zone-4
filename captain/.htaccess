@@ -1,0 +1,4 @@
+AuthName "captain"
+AuthUserFile "/home/vhosts/bcga/.htpasswds/public_html/women/captain/passwd"
+AuthType Basic
+require valid-user
