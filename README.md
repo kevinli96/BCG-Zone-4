@@ -7,15 +7,34 @@ https://git-scm.com/downloads
 
 2. Copy the entirety of the 'master' version's contents to start off. Navigate to a directory you would like to store the project in terminal and execute the following command.
 
+  ```console
+  git clone https://github.com/kevinli96/BCGA-Zone-4-Women-s-
+  ```
+
+3. A folder named "BCGA-Zone-4-Women-s-" will be created." This may take time depending on your internet connection. When this is finished executing, you now have a local copy of the repository. You can browse all the code that is part of the repository, in the directory that was just created.
+
+### Helpful git commands
+
 ```console
-git clone https://github.com/kevinli96/BCGA-Zone-4-Women-s-
+git status
+```
+"git status" checks the status of your local repository (whether any files have been added, committed, or if you have not made any changes at all). I use this command when I first begin working, to see if there were any files from a previous session that I did not commit to the master.
+
+```console
+git stash
 ```
 
-This will take time depending on your internet connection. When this is finished executing, you now have a local copy of the repository. You can browse all the code that is part of the repository, in the directory that was just created.
+If there have been files you worked on whose changes you would like to discard, "git stash" resets the state of your local repository to the last time you pushed to the master.
+
+```console
+git pull
+```
+Sometimes, you will need to incorporate changes made by another collaborator to your local codebase. "git pull" does exactly that, and takes all modified files from the master and syncs up the repository with your local. Be cautious using this if you know that other collaborators have changed files that you are working on (or vice versa, if you begin working on files that others have modified), as this can lead to merge conflicts.
+
 
 ### Committing and pushing local code to master
 
-Although we have just created a clone of the repository, any changes you make to these files will not persist in the remote, or master version that is the repository at the GitHub link (https://github.com/kevinli96/BCGA-Zone-4-Women-s-).These files will have to be 'committed' and 'pushed' to the master, and by extension, the website hosted at https://kevinli96.github.io/BCGA-Zone-4-Women-s-/
+Although we have just created a clone of the repository, any changes you make to these files will not persist in the remote, or master version that is the repository at the GitHub link (https://github.com/kevinli96/BCGA-Zone-4-Women-s-). These files will have to be 'committed' and 'pushed' to the master, and by extension, the website hosted at https://kevinli96.github.io/BCGA-Zone-4-Women-s-/
 Say you want to replace a file to the website, e.g. a team schedule or results page.
 
 1. Execute the given change (e.g. pdf/excel/image replacement, small change to the home page text).
