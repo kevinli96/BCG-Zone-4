@@ -44,13 +44,13 @@ Say you want to replace a file to the website, e.g. a team schedule or results p
 ```console
 git add -A
 git commit -m "commit message"
-git push (-u origin master)
+git push
 ```
 
 Line by line:
 1. We must incorporate all the changes we made to the repository, so we must add the files with the (-A) argument denoting 'all' changes to our files.
 2. We commit, or persist the files we added to the local version of the repository. Every commit requires a commit message, therefore the (-m) argument gives the 'commit' a commit message of the following text in quotes. This is up to the user to fill in, and is for documentation purposes. E.g. it could range anywhere from "replaced team 1 results pdf" to "small style change to home page"
-3. Push the committed code to the master version. If there is an error denoting upstream branches, execute the full command (with the "-u origin master"). Otherwise, "git push" will suffice.
+3. Push the committed code to the master version. If there is an error denoting upstream branches, execute the full command ("git push -u origin master"). Otherwise, "git push" will suffice.
 
 If at any point something unexpected comes up, CTRL+D or CTRL+C will terminate command execution and will return you to the command prompt.
 
