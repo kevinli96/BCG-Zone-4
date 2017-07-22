@@ -53,21 +53,19 @@ iframe {
     height: 400px;
 }
 
-.championPhotos {
-    font-size: 10px;
+.championPhoto {
+  width: 175px;
+  height: 230px;
+  margin: 0 auto;
 }
 
-.championPhotos > td {
-    width: 80px;
+.figure-caption {
+    text-align: center;
+    
 }
-
 .photoHeader {
     margin-bottom: 30px;
-}
 
-.photo {
-    width: 80px;
-    height: 100px;
 }
 
 /*.navbar-nav > li > a, .navbar-brand {
@@ -109,6 +107,11 @@ iframe {
     }
 }
 
+@media screen and (max-width: 768px) {
+  .figure-caption {
+    margin-bottom: 20px;
+  }
+}
 
 @media screen and (min-width: 768px) {
     body {
@@ -129,12 +132,6 @@ iframe {
 
     .photoHeader {
         margin-bottom: 30px;
-    }
-
-    .photo {
-        width: 175px;
-        height: 230px;
-        margin-right: 100px;
     }
 
     .handicapImage {
