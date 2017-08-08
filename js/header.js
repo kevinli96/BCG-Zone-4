@@ -1,6 +1,12 @@
 $(window).on("load", function() {
+  var path = window.location.pathname;
+  var page = path.split("/").pop();
     $.get("header.html", function(data) {
-      $(data).hide().prependTo("body").fadeIn(2000);
+      if (page === "index.html") {
+        $(data).hide().prependTo("body").slideDown(1500);
+      } else {
+        $(data).hide().prependTo("body").fadeIn(1500)
+      }
         // $('body').prepend(data);
         $('.carousel').carousel({
             interval: 5000 //changes the speed
@@ -12,7 +18,7 @@ $(window).on("load", function() {
         if (title.length > 0) {
             $('html,body').animate({
                 scrollTop: title.offset().top + 225
-            }, 'slow');
+            }, 1500);
         }
     }
 
