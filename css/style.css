@@ -88,6 +88,12 @@ iframe {
     color: white !important;
 }
 
+@media screen and (max-width: 1000px) {
+    #myScrollSpy {
+      display: none;
+    }
+}
+
 @media screen and (min-width: 500px) {
     header.carousel .carousel {
         height: 70%;

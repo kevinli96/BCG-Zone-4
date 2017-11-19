@@ -1,4 +1,4 @@
-# BCGA Zone 4 Women - Official Site
+# BC Golf Zone 4 Women - Official Site
 ### Modifying the github pages (test) site
 GitHub uses a version control system called Git, whose full range of features is far beyond the understanding of the average software engineer. The basic idea is that there is a 'master' version of the repository, and a local version that is stored on a collaborator's computer.
 

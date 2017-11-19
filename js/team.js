@@ -11,7 +11,12 @@ let loadTeam = (teamNo) => {
         return $(this).text() === "H";
       }).css( "background-color", "#8ec199" );
 
-      $('.team' + teamNo + " > table").addClass("table table-bordered table-hover")
+
+      $('.team' + teamNo).css({"height":"450px", "overflow-y":"auto"})
+      $('.team' + teamNo + " > table").addClass("table table-bordered table-hover table-fixed")
+      $('.team' + teamNo + " > table > tbody > tr > td:first-child").css({
+        "background-color": "#f0f6cc"
+      })
   });
 
 }
@@ -21,3 +26,25 @@ $(window).on("load", function() {
     }
 
 });
+
+// .table > thead:first-child > tr:first-child > th:first-child {
+//   position: absolute;
+//   display: inline-block;
+//   background-color: red;
+//   height: 100%;
+// }
+//
+// .table > tbody > tr > td:first-child {
+//     position: absolute;
+//     display: inline-block;
+//     background-color: red;
+//     height: 100%;
+// }
+//
+// .table > thead:first-child > tr:first-child > th:nth-child(2) {
+//     padding-left: 40px;
+// }
+//
+// .table > tbody > tr > td:nth-child(2) {
+//     padding-left: 50px !important;
+// }
