@@ -10,15 +10,43 @@ https://git-scm.com/downloads
 2. Download/install Python 3.6.4 (or the latest 3.6.x version)
 https://www.python.org/downloads/
 
-2. Open terminal/command prompt and enter the following
+3. Open terminal/command prompt and enter the following
+    ```console
+    git clone https://github.com/kevinli96/BCG-Zone-4
+    ```
+An alternative to the above terminal/command prompt step is to manually download the Git repository from the GitHub website [here](https://github.com/kevinli96/BCG-Zone-4). Click on the green 'Clone or download' button and then click 'Download ZIP.' A screenshot of the github homepage is located below.
+
+    ![Github homepage](img/github.png)
+
+A folder named "BCG-Zone-4" will be created." This may take time depending on your internet connection. When this is finished executing, you now have a local copy of the repository. You can browse all the code that is part of the repository, in the directory that was just created.
+
+### Local site setup
+
+Because of [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (cross-origin resource sharing), we need to set up a local web server on our computer in order to fully run the website. Otherwise, a lot of the formatting and images will not come out as they are supposed to. However, setting up a local web server is really simple with python installed.
+
+1. Navigate in terminal/command prompt to the "BCG-Zone-4" folder. Enter the following command:
 
   ```console
-  git clone https://github.com/kevinli96/BCG-Zone-4
+  python -m http.server 8888
   ```
 
-3. A folder named "BCG-Zone-4" will be created." This may take time depending on your internet connection. When this is finished executing, you now have a local copy of the repository. You can browse all the code that is part of the repository, in the directory that was just created.
+  The number 8888 is an arbitrary port number. This can be any port, but the default is usually 8888. You should see something similar to the following:
 
-### Helpful git commands (ignore for site training)
+  ![Mac Terminal Output](img/server_startup.png)
+
+  The ~/workspace/BCGA/BCG-Zone-4 is the location of the terminal/command prompt. This will be different depending on where you have downloaded (git cloned) the BCG-Zone-4 directory. For example, this could be ~/Desktop/BCG-Zone-4, if you downloaded the directory onto your desktop.
+
+2. Open a web browser (Chrome works best) and go to the address: *localhost:8888*
+
+  ![Website on Chrome](img/localhost_chrome.png)
+
+  Notice that the terminal/command prompt will output a few lines to confirm that you are retrieving resources (images and formatting scripts) from this local python web server. 
+
+  ![Terminal response](img/localhost_terminal_response.png)
+
+## End of site training (the rest will follow the agenda on the google docs)
+
+### Helpful git commands
 
 ```console
 git status
@@ -39,7 +67,7 @@ Sometimes, you will need to incorporate changes made by another collaborator to 
 
 ### Committing and pushing local code to master
 
-Although we have just created a clone of the repository, any changes you make to these files will not persist in the remote, or master version that is the repository at the GitHub link (https://github.com/kevinli96/BCGA-Zone-4-Women-s-). These files will have to be 'committed' and 'pushed' to the master, and by extension, the website hosted at https://kevinli96.github.io/BCGA-Zone-4-Women-s-/
+Although we have just created a clone of the repository, any changes you make to these files will not persist in the remote, or master version that is the repository at the GitHub link (https://github.com/kevinli96/BCG-Zone-4). These files will have to be 'committed' and 'pushed' to the master, and by extension, the website hosted at https://kevinli96.github.io/BCG-Zone-4/
 Say you want to replace a file to the website, e.g. a team schedule or results page.
 
 1. Execute the given change (e.g. pdf/excel/image replacement, small change to the home page text).
@@ -58,11 +86,6 @@ Line by line:
 3. Push the committed code to the master version. If there is an error denoting upstream branches, execute the full command ("git push -u origin master"). Otherwise, "git push" will suffice.
 
 If at any point something unexpected comes up, CTRL+D or CTRL+C will terminate command execution and will return you to the command prompt.
-
-
-## Tutorials
-## Git
-https://www.youtube.com/watch?v=HVsySz-h9r4
 
 ### Basic terminal commands
 PC: http://www.digitalcitizen.life/command-prompt-how-use-basic-commands/
