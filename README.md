@@ -16,7 +16,7 @@ https://www.python.org/downloads/
     ```
 An alternative to the above terminal/command prompt step is to manually download the Git repository from the GitHub website [here](https://github.com/kevinli96/BCG-Zone-4). Click on the green 'Clone or download' button and then click 'Download ZIP.' A screenshot of the github homepage is located below.
 
-    ![Github homepage](img/github.png)
+<img src="img/github.png" width="300">
 
 A folder named "BCG-Zone-4" will be created." This may take time depending on your internet connection. When this is finished executing, you now have a local copy of the repository. You can browse all the code that is part of the repository, in the directory that was just created.
 
@@ -32,17 +32,17 @@ Because of [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (cross
 
   The number 8888 is an arbitrary port number. This can be any port, but the default is usually 8888. You should see something similar to the following:
 
-  ![Mac Terminal Output](img/server_startup.png)
+  <img src="img/server_startup.png" width="300">
 
   The ~/workspace/BCGA/BCG-Zone-4 is the location of the terminal/command prompt. This will be different depending on where you have downloaded (git cloned) the BCG-Zone-4 directory. For example, this could be ~/Desktop/BCG-Zone-4, if you downloaded the directory onto your desktop.
 
 2. Open a web browser (Chrome works best) and go to the address: *localhost:8888*
 
-  ![Website on Chrome](img/localhost_chrome.png)
+  <img src="img/localhost_chrome.png" width="400">
 
-  Notice that the terminal/command prompt will output a few lines to confirm that you are retrieving resources (images and formatting scripts) from this local python web server. 
+  Notice that the terminal/command prompt will output a few lines to confirm that you are retrieving resources (images and formatting scripts) from this local python web server.
 
-  ![Terminal response](img/localhost_terminal_response.png)
+  <img src="img/localhost_terminal_response.png" width="300">
 
 ## End of site training (the rest will follow the agenda on the google docs)
 
