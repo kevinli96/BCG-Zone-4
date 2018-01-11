@@ -89,4 +89,5 @@ If at any point something unexpected comes up, CTRL+D or CTRL+C will terminate c
 
 ### Basic terminal commands
 PC: http://www.digitalcitizen.life/command-prompt-how-use-basic-commands/
+
 MAC: https://computers.tutsplus.com/tutorials/navigating-the-terminal-a-gentle-introduction--mac-3855
