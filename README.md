@@ -1,19 +1,24 @@
 # BC Golf Zone 4 Women - Official Site
-### Modifying the github pages (test) site
-GitHub uses a version control system called Git, whose full range of features is far beyond the understanding of the average software engineer. The basic idea is that there is a 'master' version of the repository, and a local version that is stored on a collaborator's computer.
 
-1. Download and install Git.
+## Site Training
+
+### Installations
+
+1. Download/install Git.
 https://git-scm.com/downloads
 
-2. Copy the entirety of the 'master' version's contents to start off. Navigate to a directory you would like to store the project in terminal and execute the following command.
+2. Download/install Python 3.6.4 (or the latest 3.6.x version)
+https://www.python.org/downloads/
+
+2. Open terminal/command prompt and enter the following
 
   ```console
-  git clone https://github.com/kevinli96/BCGA-Zone-4-Women-s-
+  git clone https://github.com/kevinli96/BCG-Zone-4
   ```
 
-3. A folder named "BCGA-Zone-4-Women-s-" will be created." This may take time depending on your internet connection. When this is finished executing, you now have a local copy of the repository. You can browse all the code that is part of the repository, in the directory that was just created.
+3. A folder named "BCG-Zone-4" will be created." This may take time depending on your internet connection. When this is finished executing, you now have a local copy of the repository. You can browse all the code that is part of the repository, in the directory that was just created.
 
-### Helpful git commands
+### Helpful git commands (ignore for site training)
 
 ```console
 git status
