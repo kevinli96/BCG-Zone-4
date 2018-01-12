@@ -1,209 +1,218 @@
-/* Global Styles */
 
+/* Global Styles */
 html,
+
 body {
-    height: 100%;
-    font-family: 'Open Sans', sans-serif;
+    height      : 100%;
+    font-family : 'Open Sans', sans-serif;
 }
 
 #burnabyMountain {
   /*padding-top: 150px;*/
 }
+
 .inline-block {
-  display: inline-block
+    display : inline-block
 }
+
 #bcgaPhoto {
-  margin-top: 20px;
-  margin-bottom: 30px;
+    margin-top    : 20px;
+    margin-bottom : 30px;
 }
 
 h1, h2, h3, h4, h5, h6, a, p {
-    font-family: 'Open Sans', sans-serif;
+    font-family : 'Open Sans', sans-serif;
 }
 
 .img-responsive.landscape {
-  margin: 0 auto;
+    margin : 0 auto;
 }
 
 .team1, .team2, .team3 {
-  overflow-x: auto;
+    overflow-x : auto;
+}
+
+#team1, #team2, #team3 {
+    margin-top : 30px;
 }
 
 .nav-tabs {
-    margin-top: 30px;
+    margin-top : 30px;
 }
 
 .img-portfolio {
-    margin-bottom: 15px;
+    margin-bottom : 15px;
 }
 
 .search {
-    margin-bottom: 30px;
+    margin-bottom : 30px;
 }
 
 #executiveTable {
-    margin-top: 30px;
+    margin-top : 30px;
 }
 
-
 .title {
-    text-align: center;
-    margin-top: 70px;
-    margin-bottom: 20px;
+    margin-top    : 70px;
+    margin-bottom : 20px;
+
+    text-align    : center;
 }
 
 iframe {
-    width: 400px;
-    height: 400px;
+    height : 400px;
+    width  : 400px;
 }
 
 .championPhoto {
-  width: 150px;
-  height: 233px;
-  margin: 0 auto;
+    height : 233px;
+    width  : 150px;
+    margin : 0 auto;
 }
 
 .figure-caption {
-    text-align: center;
-
+    text-align : center;
 }
-.photoHeader {
-    margin-bottom: 30px;
 
+.photoHeader {
+    margin-bottom : 30px;
 }
 
 /*.navbar-nav > li > a, .navbar-brand {
     color: black !important;
 }*/
-
-
 #executivePhoto {
-  margin-bottom: 20px;
+    margin-top    : 30px;
+    margin-bottom : 20px;
 }
+
 .figure-caption {
-  margin-top: 20px;
+    margin-top : 20px;
 }
 
 .navbar-nav > li > a, .navbar-brand {
-    color: white !important;
+    color : white !important;
 }
 
 @media screen and (max-width: 1000px) {
     #myScrollSpy {
-      display: none;
+        display : none;
     }
 }
 
 @media screen and (min-width: 500px) {
+    header.carousel .item,
+    header.carousel .item.active,
+
     header.carousel .carousel {
-        height: 70%;
+        height : 70%;
     }
 
     header.carousel {
-        height: 50%;
+        height : 50%;
     }
 
-    header.carousel .item,
-    header.carousel .item.active,
     header.carousel .carousel-inner {
-        height: 100%;
+        height : 100%;
     }
 
     header.carousel .fill {
-        width: 100%;
-        height: 100%;
-        background-position: center;
-        background-size: cover;
+        height              : 100%;
+        width               : 100%;
+
+        background-position : center;
+        background-size     : cover;
     }
 }
 
 @media screen and (max-width: 768px) {
-  .figure-caption {
-    margin-bottom: 20px;
-  }
+    .figure-caption {
+        margin-bottom : 20px;
+    }
 }
 
 @media screen and (min-width: 768px) {
     body {
-        padding-top: 50px;
+        padding-top : 50px;
     }
 
     iframe {
-        height: 700px;
-        width: 700px;
+        height : 700px;
+        width  : 700px;
     }
+
     .title {
-        margin-top: 50px;
+        margin-top : 50px;
     }
 
     .search {
-        margin: auto;
+        margin : auto;
     }
 
     .photoHeader {
-        margin-bottom: 30px;
+        margin-bottom : 30px;
     }
 
     .handicapImage {
-        width: 100%;
-        height: 100%;
+        height : 100%;
+        width  : 100%;
     }
 
     .img-portfolio {
-        margin-bottom: 30px;
+        margin-bottom : 30px;
     }
 
     .img-hover:hover {
-        opacity: 0.8;
+        opacity : 0.8;
     }
 
     footer {
-        margin: 50px 0;
+        margin : 50px 0;
     }
 }
 
 @media (max-width: 991px) {
     .navbar-header {
-        float: none;
+        float : none;
     }
 
     .navbar-left, .navbar-right {
-        float: none !important;
+        float : none !important;
     }
 
     .navbar-toggle {
-        display: block;
+        display : block;
     }
 
     .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+        border-top : 1px solid transparent;
+        box-shadow : inset 0 1px 0 rgba(255, 255, 255, 0.1);
     }
 
     .navbar-fixed-top {
-        top: 0;
-        border-width: 0 0 1px;
+        top          : 0;
+        border-width : 0 0 1px;
     }
 
     .navbar-collapse.collapse {
-        display: none !important;
+        display : none !important;
     }
 
     .navbar-nav {
-        float: none !important;
-        margin-top: 7.5px;
+        float      : none !important;
+        margin-top : 7.5px;
     }
 
     .navbar-nav > li {
-        float: none;
+        float : none;
     }
 
     .navbar-nav > li > a {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top    : 10px;
+        padding-bottom : 10px;
     }
 
     .collapse.in {
-        display: block !important;
+        display : block !important;
     }
 }

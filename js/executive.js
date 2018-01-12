@@ -1,21 +1,35 @@
 $(window).on("load", function() {
     loadAll()
+    $("#searchForm").submit(function() { return false; });
 });
 
 function loadAll() {
-  $.get("executive/executive_table.html", function(data) {
-    $(data).appendTo("#executiveTable")
-    $('#executiveTable table').removeClass().addClass("table table-hover table-list-search")
-    $('#executiveTable table thead').removeClass().addClass("thead-inverse")
-    $('#executiveTable table thead tr').removeClass()
-    // email = $("#executiveTable table tbody tr td:nth-child(4)").html();
-    // $("#executiveTable table tbody tr td:nth-child(4)").html("<a href='" + email + "'>" + email + "dmartin111@shaw.ca</a>")
+  $.get("tables/executive_table.html", function(data) {
+    $(data).appendTo("#zone4Executive")
+    $('#zone4Executive table').removeClass().addClass("table table-hover table-list-search")
+    $('#zone4Executive table thead').removeClass().addClass("thead-inverse")
+    $('#zone4Executive table thead tr').removeClass()
+    rows = $('#zone4Executive table tbody tr')
+    console.log(rows.length)
+    for (var i = 1; i <= rows.length; i++) {
+         email = $("#zone4Executive table tbody tr:nth-child(" + i + ") td:nth-child(4)").html();
+        $("#zone4Executive table tbody tr:nth-child(" + i + ") td:nth-child(4)").html("<a href=mailto:'" + email + "'>" + email + "</a>")
+    }
+   
   })
-  // .done(loadBusinessExecutive)
+  .done(loadBusinessExecutive)
 }
 
 function loadBusinessExecutive() {
-  $.get("executive/business_executive_table.html", function(data) {
+  $.get("tables/bw_executive_table.html", function(data) {
     $(data).appendTo("#businessTable")
+    $('#businessTable table').removeClass().addClass("table table-hover table-list-search")
+    $('#businessTable table thead').removeClass().addClass("thead-inverse")
+    $('#businessTable table thead tr').removeClass()
+    rows = $('#businessTable table tbody tr')
+    for (var i = 1; i <= rows.length; i++) {
+         email = $("#businessTable table tbody tr:nth-child(" + i + ") td:nth-child(5)").html();
+        $("#businessTable table tbody tr:nth-child(" + i + ") td:nth-child(5)").html("<a href=mailto:'" + email + "'>" + email + "</a>")
+    }
   })
 }

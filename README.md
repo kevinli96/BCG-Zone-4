@@ -1,5 +1,45 @@
 # BC Golf Zone 4 Women - Official Site
 
+## Table of Contents
+
+* [Maintenance](#maintenance)
+      * [Teams](#teams)
+      * [Tournaments](#tournaments)
+      * [Tables](#Tables)
+* [Site Training](#site-training)
+      * [Installations](#installations)
+      * [Local Site Setup](#local-site-setup)
+      * [Git Workflow](#git-workflow)
+* [Tips](#tips)
+      * [Helpful Git Commands](#helpful-git-commands)
+      * [Helpful Terminal Commands](#helpful-terminal-commands)
+
+## Maintenance
+
+### Teams
+
+The teams.html file is organized such that the code corresponding to each team (1, 2, 3) is automatically inserted into the "Info" tab (the first tab on the page). Therefore there is no need to make changes twice to modify the individual team information as well as the Info tab. 
+
+### Tournaments
+
+All the separate tournaments have been divided into their respective .html files located in the tournaments/ folder. The files are as follows
+
+* tournaments/business_women.html (business women tournaments)
+* tournaments/junior_girls.html (junior girls tournaments)
+* tournaments/past_results.html (past results)
+* tournaments/provincial.html (provincial tournaments)
+* tournamentszone34.html (zone 3/4 tournaments)
+
+### Tables
+
+A simple way to convert excel spreadsheets to HTML table code is to use [Tableizer](http://tableizer.journalistopia.com/). Paste the relevant cells from the spreadsheet into Tableizer, and copy the output of Tableizer into the appropriate .html file located in the tables/ folder. The following tables are located in the tables/ folder. 
+
+* tables/bw_executive_table.html (business women executive)
+* tables/executive_table.html (zone 4 executive)
+* tables/team1.html (team 1 schedule)
+* tables/team2.html (team 2 schedule)
+* tables/team3.html (team 3 schedule)
+
 ## Site Training
 
 ### Installations
@@ -20,7 +60,7 @@ An alternative to the above terminal/command prompt step is to manually download
 
 A folder named "BCG-Zone-4" will be created." This may take time depending on your internet connection. When this is finished executing, you now have a local copy of the repository. You can browse all the code that is part of the repository, in the directory that was just created.
 
-### Local site setup
+### Local Site Setup
 
 Because of [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (cross-origin resource sharing), we need to set up a local web server on our computer in order to fully run the website. Otherwise, a lot of the formatting and images will not come out as they are supposed to. However, setting up a local web server is really simple with python installed.
 
@@ -73,24 +113,27 @@ Because of [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (cross
 
   If at any point something unexpected comes up, CTRL+D or CTRL+C will terminate command execution and will return you to the command prompt.
 
+## Tips
 
 ### Helpful Git Commands
 
 ```console
 git status
 ```
-"git status" checks the status of your local repository (whether any files have been added, committed, or if you have not made any changes at all). I use this command when I first begin working, to see if there were any files from a previous session that I did not commit to the master.
+
+"git status" checks whether any files have been added or committed, and is a useful check to determine which git command you should run next.
 
 ```console
 git stash
 ```
 
-If there have been files you worked on whose changes you would like to discard, "git stash" resets the state of your local repository to the last time you pushed to the master.
+If you run into a merge conflict, or there files you have worked on whose changes you would like to discard, "git stash" will do this. It resets the state of your local repository to the last time you pushed to the master.
 
 ```console
 git pull
 ```
-Sometimes, you will need to incorporate changes made by another collaborator to your local codebase. "git pull" does exactly that, and takes all modified files from the master and syncs up the repository with your local. Be cautious using this if you know that other collaborators have changed files that you are working on (or vice versa, if you begin working on files that others have modified), as this can lead to merge conflicts.
+
+Sometimes, you will need to incorporate changes made by another collaborator to your local codebase. "git pull" does exactly that, and takes all modified files from the master and syncs up the repository with your local. Be careful using this if you know that other collaborators have changed files that you are working on (or vice versa, if you begin working on files that others have modified).
 
 
 ### Basic terminal commands
