@@ -59,11 +59,6 @@ Because of [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (cross
 4. Add, commit and push local code to the GitHub repository
 
   Although we have just created a clone of the repository, any changes you make to these files will not persist in the remote, or master version that is the repository at the GitHub link (https://github.com/kevinli96/BCG-Zone-4). These files will have to be 'committed' and 'pushed' to the master, and by extension, the website hosted at https://kevinli96.github.io/BCG-Zone-4/
-  Say you want to replace a file to the website, e.g. a team schedule or results page.
-
-  1. Execute the given change (e.g. pdf/excel/image replacement, small change to the home page text).
-
-  2. Execute the following commands in terminal/command line
 
   ```console
   git add -A
