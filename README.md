@@ -44,9 +44,37 @@ Because of [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (cross
 
   <img src="img/localhost_terminal_response.png" width="600">
 
-## End of site training (the rest will follow the agenda on the google docs)
+### Git Workflow
 
-### Helpful git commands
+1. Open Windows Powershell (or command prompt or terminal on Mac) and navigate to the BCG-Zone-4 directory (using cd commands, with "cd .." bringing you up a single directory)
+
+2. Ensure that you have the latest changes from the GitHub repository by pulling
+
+  ```console
+  git pull
+  ```
+
+3. Start your work session (setting up python web server and sublime text editor)
+
+4. Add, commit and push local code to the GitHub repository
+
+  Although we have just created a clone of the repository, any changes you make to these files will not persist in the remote, or master version that is the repository at the GitHub link (https://github.com/kevinli96/BCG-Zone-4). These files will have to be 'committed' and 'pushed' to the master, and by extension, the website hosted at https://kevinli96.github.io/BCG-Zone-4/
+
+  ```console
+  git add -A
+  git commit -m "commit message"
+  git push (git push -u origin master)
+  ```
+
+  Line by line:
+  1. We must incorporate all the changes we made to the repository, so we must add the files with the (-A) argument denoting 'all' changes to our files.
+  2. We commit, or persist the files we added to the local version of the repository. Every commit requires a commit message, therefore the (-m) argument gives the 'commit' a commit message of the following text in quotes. This is up to the user to fill in, and is for documentation purposes. E.g. it could range anywhere from "replaced team 1 results pdf" to "small style change to home page"
+  3. Push the committed code to the master version. If there is an error denoting upstream branches, execute the full command ("git push -u origin master"). Otherwise, "git push" will suffice.
+
+  If at any point something unexpected comes up, CTRL+D or CTRL+C will terminate command execution and will return you to the command prompt.
+
+
+### Helpful Git Commands
 
 ```console
 git status
@@ -64,28 +92,6 @@ git pull
 ```
 Sometimes, you will need to incorporate changes made by another collaborator to your local codebase. "git pull" does exactly that, and takes all modified files from the master and syncs up the repository with your local. Be cautious using this if you know that other collaborators have changed files that you are working on (or vice versa, if you begin working on files that others have modified), as this can lead to merge conflicts.
 
-
-### Committing and pushing local code to master
-
-Although we have just created a clone of the repository, any changes you make to these files will not persist in the remote, or master version that is the repository at the GitHub link (https://github.com/kevinli96/BCG-Zone-4). These files will have to be 'committed' and 'pushed' to the master, and by extension, the website hosted at https://kevinli96.github.io/BCG-Zone-4/
-Say you want to replace a file to the website, e.g. a team schedule or results page.
-
-1. Execute the given change (e.g. pdf/excel/image replacement, small change to the home page text).
-
-2. Execute the following commands in terminal/command line
-
-```console
-git add -A
-git commit -m "commit message"
-git push
-```
-
-Line by line:
-1. We must incorporate all the changes we made to the repository, so we must add the files with the (-A) argument denoting 'all' changes to our files.
-2. We commit, or persist the files we added to the local version of the repository. Every commit requires a commit message, therefore the (-m) argument gives the 'commit' a commit message of the following text in quotes. This is up to the user to fill in, and is for documentation purposes. E.g. it could range anywhere from "replaced team 1 results pdf" to "small style change to home page"
-3. Push the committed code to the master version. If there is an error denoting upstream branches, execute the full command ("git push -u origin master"). Otherwise, "git push" will suffice.
-
-If at any point something unexpected comes up, CTRL+D or CTRL+C will terminate command execution and will return you to the command prompt.
 
 ### Basic terminal commands
 PC: http://www.digitalcitizen.life/command-prompt-how-use-basic-commands/
