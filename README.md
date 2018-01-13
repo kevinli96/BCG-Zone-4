@@ -3,16 +3,17 @@
 ## Table of Contents
 
 * [Maintenance](#maintenance)
-      * [Teams](#teams)
-      * [Tournaments](#tournaments)
-      * [Tables](#Tables)
+  * [Teams](#teams)
+  * [Tournaments](#tournaments)
+  * [Tables](#Tables)
+  * [Images](#Images)
 * [Site Training](#site-training)
-      * [Installations](#installations)
-      * [Local Site Setup](#local-site-setup)
-      * [Git Workflow](#git-workflow)
+  * [Installations](#installations)
+  * [Local Site Setup](#local-site-setup)
+  * [Git Workflow](#git-workflow)
 * [Tips](#tips)
-      * [Helpful Git Commands](#helpful-git-commands)
-      * [Helpful Terminal Commands](#helpful-terminal-commands)
+  * [Helpful Git Commands](#helpful-git-commands)
+  * [Helpful Terminal Commands](#helpful-terminal-commands)
 
 ## Maintenance
 
@@ -39,6 +40,10 @@ A simple way to convert excel spreadsheets to HTML table code is to use [Tableiz
 * tables/team1.html (team 1 schedule)
 * tables/team2.html (team 2 schedule)
 * tables/team3.html (team 3 schedule)
+
+### Images
+
+Images for the champions/juniors/assorted photos are located under img/gallery
 
 ## Site Training
 
