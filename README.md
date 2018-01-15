@@ -101,9 +101,23 @@ Because of [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (cross
 
 3. Start your work session (setting up python web server and sublime text editor)
 
+  * Make edits in Sublime Text (or preferred text editor), remembering to save your changes (ctrl + s)
+  * Verify changes in your web browser on the localhost (typically Google Chrome, at localhost:8888). Ensure that the cache is disabled by:
+    * Opening up chrome developer tools (right click anywhere on the page -> inspect OR ctrl + shift + I)
+    * Go to network tab
+    * Click disable cache 
+
+  The cache will be disabled only when the chrome developer tools pane is open. There's not much else in the network tab that is worth exploring, but the elements tab provides you with an in-browser look at the html code of the page. This is useful because the button on the top-left corner of the developer tools window will automatically locate in the html code the highlighted element. This is shown in the screenshot below.
+
+  ![Chrome developer tools](img/chrome_developer_tools.png)
+
+  An alternative way pf disabling caching is to open up localhost in an incognito tab (ctrl + shift + n). 
+
 4. Add, commit and push local code to the GitHub repository
 
-  Although we have just created a clone of the repository, any changes you make to these files will not persist in the remote, or master version that is the repository at the GitHub link (https://github.com/kevinli96/BCG-Zone-4). These files will have to be 'committed' and 'pushed' to the master, and by extension, the website hosted at https://kevinli96.github.io/BCG-Zone-4/
+  Although we have just created a clone of the repository, any changes you make to these files will not persist in the remote, or master version that is the repository at the GitHub link (https://github.com/kevinli96/BCG-Zone-4). These files will have to be 'committed' and 'pushed' to the master, and by extension, the website hosted at https://kevinli96.github.io/BCG-Zone-4/. 
+
+  NOTE: Even when changes have been successfully pushed, and the GitHub repository has been modified to reflect these changes, the site at https://kevinli96.github.io/BCG-Zone-4/ may take a few minutes to respond. I've found that it is quicker to open up the site in an incognito tab (and the changes are usually immediate this way). Even when the cache is disabled, there is still a delay in response time
 
   ```console
   git add -A
