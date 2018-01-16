@@ -14,6 +14,8 @@ let loadTeam = (teamNo) => {
             return $(this).text() === home_string;
         }).css("background-color", "#8ec199");
 
+        $("th").css("font-family", "Open Sans, sans-serif")
+        $("td").css("font-family", "Open Sans, sans-serif")
 
         $('.team' + teamNo).css({
             "height": "450px",
