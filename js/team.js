@@ -1,3 +1,6 @@
+const home_string = "H to";
+const away_string = "A at";
+
 const TEAM_SIZE = 3;
 
 let loadTeam = (teamNo) => {
@@ -5,10 +8,10 @@ let loadTeam = (teamNo) => {
         $('.team' + teamNo).html(data);
 
         $("td").filter(function() {
-            return $(this).text() === "A";
+            return $(this).text() === away_string;
         }).css("background-color", "#db9d97");
         $("td").filter(function() {
-            return $(this).text() === "H";
+            return $(this).text() === home_string;
         }).css("background-color", "#8ec199");
 
 
@@ -16,7 +19,7 @@ let loadTeam = (teamNo) => {
             "height": "450px",
             "overflow-y": "auto"
         })
-        $('.team' + teamNo + " > table").addClass("table table-bordered table-hover table-fixed")
+        $('.team' + teamNo + " > table").removeClass().addClass("table table-bordered table-hover table-fixed")
         $('.team' + teamNo + " > table > tbody > tr > td:first-child").css({
             "background-color": "#f0f6cc"
         })
