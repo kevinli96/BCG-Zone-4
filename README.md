@@ -5,8 +5,8 @@
 * [Maintenance](#maintenance)
   * [Teams](#teams)
   * [Tournaments](#tournaments)
-  * [Tables](#Tables)
-  * [Images](#Images)
+  * [Tables](#tables)
+  * [Images](#images)
 * [Site Training](#site-training)
   * [Installations](#installations)
   * [Local Site Setup](#local-site-setup)
@@ -33,7 +33,7 @@ All the separate tournaments have been divided into their respective .html files
 
 ### Tables
 
-A simple way to convert excel spreadsheets to HTML table code is to use [Tableizer](http://tableizer.journalistopia.com/). Paste the relevant cells from the spreadsheet into Tableizer, and copy the output of Tableizer into the appropriate .html file located in the tables/ folder. Ensure that you are copying only the code from the first table tag to the closing table tag, as highlighted in the photo below.
+A simple way to convert excel spreadsheets to HTML table code is to use [Tableizer](http://tableizer.journalistopia.com/). Paste the relevant cells from the spreadsheet into Tableizer, and copy the output of Tableizer into the appropriate .html file located in the tables/ folder. Ensure that you are copying only the code from the first table tag to the closing table tag, as highlighted in the photo below. An alternative is to check the box 'No CSS' on the first page.
 
 ![Tableizer](img/tableizer.png)
 
