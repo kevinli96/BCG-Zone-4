@@ -1,4 +1,17 @@
 $(window).on("load", function() {
+  $(function(){
+    $('.nav-tabs li a').click(function(e) {
+        e.preventDefault();
+        $(this).tab('show');
+        
+        if ($("#myScrollSpy").length > 0) {
+          console.log("here")
+          $('#myScrollSpy').scrollspy('refresh'); 
+
+        }
+
+    });
+});
     loadAll()
 });
 
@@ -37,5 +50,6 @@ function loadProvincial() {
 function loadPastResults() {
   $.get("tournaments/past_results.html", function(data) {
     $(data).appendTo("#past_results")
+    // $(".tournamentBody").attr("data-spy", "scroll").attr("data-target", "#myScrollSpy")
   })
 }
