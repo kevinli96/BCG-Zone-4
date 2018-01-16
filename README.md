@@ -33,7 +33,11 @@ All the separate tournaments have been divided into their respective .html files
 
 ### Tables
 
-A simple way to convert excel spreadsheets to HTML table code is to use [Tableizer](http://tableizer.journalistopia.com/). Paste the relevant cells from the spreadsheet into Tableizer, and copy the output of Tableizer into the appropriate .html file located in the tables/ folder. The following tables are located in the tables/ folder. 
+A simple way to convert excel spreadsheets to HTML table code is to use [Tableizer](http://tableizer.journalistopia.com/). Paste the relevant cells from the spreadsheet into Tableizer, and copy the output of Tableizer into the appropriate .html file located in the tables/ folder. Ensure that you are copying only the code from the first table tag to the closing table tag, as highlighted in the photo below.
+
+![Tableizer](img/tableizer.png)
+
+The following tables are located in the tables/ folder. 
 
 * tables/bw_executive_table.html (business women executive)
 * tables/executive_table.html (zone 4 executive)
