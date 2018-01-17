@@ -14,10 +14,10 @@ let loadTeam = (teamNo) => {
         $('.team' + teamNo).html(data);
 
         $("td").filter(function() {
-            return away_strings.some(x => x === $(this).text());
+            return away_strings.some(x => x === $(this).text().trim());
         }).css("background-color", "#db9d97");
         $("td").filter(function() {
-            return home_strings.some(x => x === $(this).text());
+            return home_strings.some(x => x === $(this).text().trim());
         }).css("background-color", "#8ec199");
 
         // adding coloring to second row (dates)
