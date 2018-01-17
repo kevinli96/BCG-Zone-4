@@ -50,6 +50,7 @@ The following tables are located in the tables/ folder.
 * tables/team1.html (team 1 schedule)
 * tables/team2.html (team 2 schedule)
 * tables/team3.html (team 3 schedule)
+* tables/teambw.html (business women team schedule)
 
 ### Images
 

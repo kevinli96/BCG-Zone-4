@@ -1,7 +1,7 @@
 // home_string and away_string are the text of the cells that are highlighted green and red respectively
 
-const home_string = "H to";
-const away_string = "A at";
+const home_strings = ["H to", "H"];
+const away_strings = ["A at", "A"];
 const numColumns = 11;
 const borderWidth = 1;
 
@@ -14,10 +14,10 @@ let loadTeam = (teamNo) => {
         $('.team' + teamNo).html(data);
 
         $("td").filter(function() {
-            return $(this).text() === away_string;
+            return away_strings.some(x => x === $(this).text());
         }).css("background-color", "#db9d97");
         $("td").filter(function() {
-            return $(this).text() === home_string;
+            return home_strings.some(x => x === $(this).text());
         }).css("background-color", "#8ec199");
 
         // adding coloring to second row (dates)
@@ -44,7 +44,7 @@ let loadTeam = (teamNo) => {
             "font-weight": "900"
         });
 
-    
+
         // Changing font to open sans, sans serif
         $("th").css("font-family", "Open Sans")
         $("td").css("font-family", "Open Sans")
@@ -68,9 +68,10 @@ let loadTeam = (teamNo) => {
 }
 
 function loadInfoTab() {
-    $("#team").append($("#team1").html())
-    $("#team").append($("#team2").html())
-    $("#team").append($("#team3").html())
+    $("#team").append($("#team1").html());
+    $("#team").append($("#team2").html());
+    $("#team").append($("#team3").html());
+    $("#team").append($("#businesswomen").html());
 }
 
 $(window).on("load", function() {
@@ -78,5 +79,6 @@ $(window).on("load", function() {
     for (var i = 1; i <= TEAM_SIZE; i++) {
         loadTeam(i);
     }
+    loadTeam("bw");
 
 });
