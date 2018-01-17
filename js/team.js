@@ -29,10 +29,6 @@ let loadTeam = (teamNo) => {
             $(this).children('td').slice(9, 11).css("background-color", "#FDE7D5");
         });
 
-        // Changing font to open sans, sans serif
-        $("th").css("font-family", "Open Sans")
-        $("td").css("font-family", "Open Sans")
-
         // setting the height of the table
         $('.team' + teamNo).css({
             "height": "450px",
@@ -47,6 +43,11 @@ let loadTeam = (teamNo) => {
             "text-align":"center",
             "font-weight": "900"
         });
+
+    
+        // Changing font to open sans, sans serif
+        $("th").css("font-family", "Open Sans")
+        $("td").css("font-family", "Open Sans")
 
 
         $('.team' + teamNo + " > table").css("border", borderWidth + "px solid black");
