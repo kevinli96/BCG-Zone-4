@@ -15,6 +15,16 @@ body {
     display : inline-block
 }
 
+#navbar-junior {
+    bottom: 240px;
+}
+#navbar-assorted {
+    bottom: 220px;
+}
+#navbar-champions {
+    bottom: 220px;
+}
+
 #bcgaPhoto {
     margin-top    : 20px;
     margin-bottom : 30px;
