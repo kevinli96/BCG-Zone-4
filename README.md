@@ -37,11 +37,11 @@ A simple way to convert excel spreadsheets to HTML table code is to use [Tableiz
 
 ![Tableizer](img/tableizer.png)
 
-After pasting the output of the tableizer conversion into Sublime, use the HTMLPrettify Sublime plugin to format/indent the HTML code. In Sublime, follow the below steps (using ctrl + shift + P on windows).
+After pasting the output of the tableizer conversion into Sublime, use the HTMLPrettify Sublime plugin to format/indent the HTML code. First install Node [here](https://nodejs.org/en/#download). Then in Sublime, follow the below steps (using ctrl + shift + P on windows).
 
 ![HTMLPrettify](img/prettify.png)
 
-Once installed, to format code on a given page, press ctrl + shift + P again, type HTMLPrettify, and hit enter.
+Once installed, to format code on a given page, press ctrl + shift + P again, type HTMLPrettify, and hit enter. Please reference the HTMLPrettify [guide](https://github.com/victorporof/Sublime-HTMLPrettify) if you run into further errors.
 
 The following tables are located in the tables/ folder. 
 
