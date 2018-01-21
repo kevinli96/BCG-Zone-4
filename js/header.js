@@ -16,10 +16,12 @@ $(window).on("load", function() {
     function scrollToAnchor() {
         var title = $(".title");
         offset = window.innerHeight - 775
-        console.log("scrolling down: " + (title.offset().top + 225 + offset) + "px") 
+        if (title.offset() != undefined) {
+            console.log("scrolling down: " + (title.offset().top + 225 + offset) + "px")
+            } 
         if (title.length > 0) {
             $('html,body').animate({
-                scrollTop: title.offset().top + 225 + offset*0.5
+                scrollTop: title.offset().top + 225+ offset*0.
             }, 1500);
         }
     }

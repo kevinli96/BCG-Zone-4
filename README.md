@@ -3,6 +3,9 @@
 ## Table of Contents
 
 * [Maintenance](#maintenance)
+  * [General](#general)
+    * [File Naming]
+    * [Updating Background Photos]
   * [Teams](#teams)
   * [Tournaments](#tournaments)
   * [Tables](#tables)
@@ -16,6 +19,12 @@
   * [Helpful Terminal Commands](#helpful-terminal-commands)
 
 ## Maintenance
+
+### General
+
+**File Naming**: Be aware of case sensitivity when naming/renaming files on your file explorer, as this does not affect your localhost site but does affect the GitHub site. i.e. the python server does not care about case sensitivity, so you may run into an instance where you capitalize the first letter in a certain file, and the localhost will work perfectly, but you will run into a 404 error on the GitHub site. 
+
+**Updating Background Photos**: Follow the instructions in the commented code in header.html.  
 
 ### Teams
 
