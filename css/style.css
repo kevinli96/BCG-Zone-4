@@ -132,6 +132,9 @@ iframe {
     .figure-caption {
         margin-bottom : 20px;
     }
+    .backgroundCaption {
+        font-size: 80%;
+    }
     header.carousel .carousel {
         height: 70%;
     }
