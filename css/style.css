@@ -133,7 +133,33 @@ iframe {
         margin-bottom : 20px;
     }
     .backgroundCaption {
-        font-size: 80%;
+        font-size: 90%;
+    }
+    .nav-tabs.mobileCentered > li, .nav-pills.mobileCentered > li {
+        float:none;
+        display:inline-block;
+        *display:inline; /* ie7 fix */
+         zoom:1; /* hasLayout ie7 trigger */
+    }
+
+    .nav-tabs.mobileCentered, .nav-pills.mobileCentered {
+        text-align:center;
+    }
+    .mobile-centered {
+        text-align: center;
+    }
+
+    #newLogo {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .page-header {
+        text-align: center;
+    }
+    #bcgaPhoto, #newLogo, #handicapImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     header.carousel .carousel {
         height: 70%;
