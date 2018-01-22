@@ -10,6 +10,15 @@ body {
 .inline-block {
     display : inline-block
 }
+.centeredPhoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.archivePhoto {
+    margin-top: 30px;
+}
 
 #navbar-junior {
     bottom: 240px;
@@ -78,6 +87,7 @@ iframe {
 
 .figure-caption {
     text-align : center;
+    margin-bottom: 20px;
 }
 
 .photoHeader {
@@ -143,7 +153,7 @@ iframe {
     }
 
     .nav-tabs.mobileCentered, .nav-pills.mobileCentered {
-        text-align:center;
+        text-align: center;
     }
     .mobile-centered {
         text-align: center;

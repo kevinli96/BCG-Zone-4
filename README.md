@@ -4,8 +4,8 @@
 
 * [Maintenance](#maintenance)
   * [General](#general)
-    * [File Naming]
-    * [Updating Background Photos]
+    * File Naming
+    * Updating Background Photos
   * [Teams](#teams)
   * [Tournaments](#tournaments)
   * [Tables](#tables)
