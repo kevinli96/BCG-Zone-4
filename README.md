@@ -44,11 +44,11 @@ All the separate tournaments have been divided into their respective .html files
 
 A simple way to convert excel spreadsheets to HTML table code is to use [Tableizer](http://tableizer.journalistopia.com/). Paste the relevant cells from the spreadsheet into Tableizer, and copy the output of Tableizer into the appropriate .html file located in the tables/ folder. Ensure that you are copying only the code from the first table tag to the closing table tag, as highlighted in the photo below. An alternative is to check the box 'No CSS' on the first page.
 
-![Tableizer](img/tableizer.png)
+![Tableizer](img/docs/tableizer.png)
 
 After pasting the output of the tableizer conversion into Sublime, use the HTMLPrettify Sublime plugin to format/indent the HTML code. First install Node [here](https://nodejs.org/en/#download). Then in Sublime, follow the below steps (using ctrl + shift + P on windows).
 
-![HTMLPrettify](img/prettify.png)
+![HTMLPrettify](img/docs/prettify.png)
 
 Once installed, to format code on a given page, press ctrl + shift + P again, type HTMLPrettify, and hit enter. Please reference the HTMLPrettify [guide](https://github.com/victorporof/Sublime-HTMLPrettify) if you run into further errors.
 
@@ -63,7 +63,7 @@ The following tables are located in the tables/ folder.
 
 ### Images
 
-Images for the champions/juniors/assorted photos are located under img/gallery
+Images for the champions/juniors/assorted photos are located under img/docs/gallery
 
 ## Site Training
 
@@ -81,7 +81,7 @@ https://www.python.org/downloads/
     ```
 An alternative to the above terminal/command prompt step is to manually download the Git repository from the GitHub website [here](https://github.com/kevinli96/BCG-Zone-4). Click on the green 'Clone or download' button and then click 'Download ZIP.' A screenshot of the github homepage is located below.
 
-<img src="img/github.png" width="600">
+<img src="img/docs/github.png" width="600">
 
 A folder named "BCG-Zone-4" will be created." This may take time depending on your internet connection. When this is finished executing, you now have a local copy of the repository. You can browse all the code that is part of the repository, in the directory that was just created.
 
@@ -97,17 +97,17 @@ Because of [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (cross
 
   The number 8888 is an arbitrary port number. This can be any port, but the default is usually 8888. You should see something similar to the following:
 
-  <img src="img/server_startup.png" width="600">
+  <img src="img/docs/server_startup.png" width="600">
 
   The ~/workspace/BCGA/BCG-Zone-4 is the location of the terminal/command prompt. This will be different depending on where you have downloaded (git cloned) the BCG-Zone-4 directory. For example, this could be ~/Desktop/BCG-Zone-4, if you downloaded the directory onto your desktop.
 
 2. Open a web browser (Chrome works best) and go to the address: *localhost:8888*
 
-  <img src="img/localhost_chrome.png" width="800">
+  <img src="img/docs/localhost_chrome.png" width="800">
 
   Notice that the terminal/command prompt will output a few lines to confirm that you are retrieving resources (images and formatting scripts) from this local python web server.
 
-  <img src="img/localhost_terminal_response.png" width="600">
+  <img src="img/docs/localhost_terminal_response.png" width="600">
 
 ### Git Workflow
 
@@ -129,7 +129,7 @@ Because of [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (cross
 
   The cache will be disabled only when the chrome developer tools pane is open. There's not much else in the network tab that is worth exploring, but the elements tab provides you with an in-browser look at the html code of the page. This is useful because the button on the top-left corner of the developer tools window will automatically locate in the html code the highlighted element. This is shown in the screenshot below. 
 
-  ![Chrome developer tools](img/chrome_developer_tools.png)
+  ![Chrome developer tools](img/docs/chrome_developer_tools.png)
 
   An alternative way of disabling caching is to open up localhost in an incognito tab (ctrl + shift + n). 
 
