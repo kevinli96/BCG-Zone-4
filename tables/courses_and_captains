@@ -1,0 +1,1014 @@
+<table class="tableizer-table">
+    <thead>
+        <tr class="tableizer-firstrow">
+            <th>Club</th>
+            <th>Club URL</th>
+            <th>Address</th>
+            <th>Phone</th>
+            <th>Playing On</th>
+            <th>Captain</th>
+            <th>Captain's Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Beach Grove GC</td>
+            <td>https://www.beachgrovegolf.com/</td>
+            <td>5946 12 Avenue</td>
+            <td>604-943-1155</td>
+            <td>Tuesday</td>
+            <td>Anne Andrew</td>
+            <td>anneandrew@telus.net</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Delta, BC V4L 1C7</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Big Sky G&CC</td>
+            <td>http://www.bigskygolf.ca/</td>
+            <td>1690 Airport Road</td>
+            <td>604-894-6106</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Pemberton, BC V0N 2L3</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Blue Ocean Golf Club (Sechelt)</td>
+            <td>http://www.blueoceangolf.ca/</td>
+            <td>6177 Ripple Way</td>
+            <td>604-885-2700</td>
+            <td>Tuesday</td>
+            <td>Moira Sarling</td>
+            <td>msarling@hotmail.com</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Sechelt, BC V0N 3A5</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Bowen Island GC</td>
+            <td>http://www.bowengolf.com/</td>
+            <td>810 Beach Drive</td>
+            <td>604-947-4653</td>
+            <td>Tuesday</td>
+            <td>Lisa Avery</td>
+            <td>lisa.avery.slp@gmail.com</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Bowen Island, BC V0N 1G2</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Burnaby Mountain GC</td>
+            <td>https://www.golfburnaby.ca/burnaby-mountain</td>
+            <td>7600 Halifax Street</td>
+            <td>604-280-7355</td>
+            <td>Tuesday</td>
+            <td>Lily Fan</td>
+            <td>Ifan1688@gmail.com</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Burnaby, BC V5A 4M8</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Capilano G&CC</td>
+            <td>http://capilanogolf.com/</td>
+            <td>420 Southborough Drive</td>
+            <td>604-925-4653</td>
+            <td>Tuesday</td>
+            <td>Deborah Brown</td>
+            <td>seasonalcolordesign@shaw.ca</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>West Vancouver, BC V7S 1M2</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Chateau Whistler GC</td>
+            <td>http://www.fairmont.com/whistler/golf/</td>
+            <td>4612 Blackcomb Way</td>
+            <td>604-938-2091</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Whistler, BC V0N 1B4</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Country Meadows GC</td>
+            <td>http://www.countrymeadowsgc.com/</td>
+            <td>8482 No. 6 Road</td>
+            <td>604-241-4653</td>
+            <td>Tuesday</td>
+            <td>Barbara Wagner</td>
+            <td>bawagner@shaw.ca</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Richmond, BC V6W 1E2</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Delta GC</td>
+            <td>http://www.deltagolfcourse.com/</td>
+            <td>11550 #10 Highway</td>
+            <td>604-594-1414</td>
+            <td>Tuesday</td>
+            <td>Brenda Norgren</td>
+            <td>brend.nordgren@gmail.com</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Delta, BC V4K 3N3</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Fraserview G&CC</td>
+            <td>http://vancouver.ca/parks-recreation-culture/fraserview-golf-course.aspx</td>
+            <td>7800 Vivian Drive</td>
+            <td>604-257-6923</td>
+            <td>Tuesday</td>
+            <td>Carol Thomas</td>
+            <td>carolthomas@telus.net</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Vancouver, BC V5S 2V8</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Business Women</td>
+            <td>Rose Fong</td>
+            <td>rfong@telus.net</td>
+        </tr>
+        <tr>
+            <td>Furry Creek G&CC</td>
+            <td>http://www.golfbc.com/courses/furry_creek</td>
+            <td>150 Country Club Road</td>
+            <td>604-896-2224</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Furry Creek, BC V0N 3Z2</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Gleneagles GC</td>
+            <td>https://westvancouver.ca/parks-recreation/community-centres/gleneagles-golf-course-club-house</td>
+            <td>6190 Marine Drive</td>
+            <td>604-921-7353</td>
+            <td>Tuesday</td>
+            <td>Linda McDonald</td>
+            <td>Linda.mcdonald.bc@gmail.com</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>West Vancouver, BC V7W 2S3</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Greenacres GC</td>
+            <td>http://www.greenacresgolfcourse.com/</td>
+            <td>5040 No. 6 Road</td>
+            <td>604-273-1121</td>
+            <td>Tuesday</td>
+            <td>Michelle Johnson</td>
+            <td>michjohn@telus.net</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Richmond, BC V6V 1T1</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Kings Links By the Sea</td>
+            <td>http://kingslinks.ca/</td>
+            <td>3388 72nd Street</td>
+            <td>604-952-0999</td>
+            <td>Tuesday</td>
+            <td>Sandy Harvell</td>
+            <td>sandy_harvell@yahoo.com</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Delta, BC V4K 3N2</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Langara GC</td>
+            <td>http://vancouver.ca/parks-recreation-culture/langara-golf-course.aspx</td>
+            <td>6706 Alberta Street</td>
+            <td>604-713-1816</td>
+            <td>Tuesday</td>
+            <td>Pat Brand</td>
+            <td>brandpat@telus.net</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Vancouver, BC V5X 4V8</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Marine Drive GC</td>
+            <td>http://www.marine-drive.com/welcome</td>
+            <td>7425 Yew Street</td>
+            <td>604-261-3212</td>
+            <td>Tuesday</td>
+            <td>Marj Allen</td>
+            <td>marjallen@me.com</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Vancouver, BC V6P 6H1</td>
+            <td>&nbsp;</td>
+            <td>Tuesday</td>
+            <td>Lynn Nielsen</td>
+            <td>lynnnielsen@shaw.ca</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Tuesday Women</td>
+            <td>Tuesday Women</td>
+            <td>mdgctw@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Mayfair Lakes GC</td>
+            <td>http://www.golfbc.com/courses/mayfair_lakes</td>
+            <td>5460 No. 7 Road</td>
+            <td>604-276-0585</td>
+            <td>Tuesday</td>
+            <td>Judy Chang</td>
+            <td>jlochang@gmail.com</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Richmond, BC V6V 1R7</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>McCleery GC</td>
+            <td>http://mccleerygolfclub.ca/</td>
+            <td>7188 Macdonald Street</td>
+            <td>604-257-8191</td>
+            <td>Tuesday</td>
+            <td>Christine Hoag</td>
+            <td>dchoag@shaw.ca</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Vancouver, BC V6N 1G2</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Business Women</td>
+            <td>Sheila Rouse</td>
+            <td>kokopell12@shaw.ca</td>
+        </tr>
+        <tr>
+            <td>Musqueam Golf and Learning Academy</td>
+            <td>http://www.musqueamgolf.com/</td>
+            <td>3904 West 51st Avenue</td>
+            <td>604-266-2334</td>
+            <td>Tuesday</td>
+            <td>Diane McNeely</td>
+            <td>dianemcneely@shaw.ca</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Vancouver, BC V6N 3W1</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Mylora GC</td>
+            <td>http://mylora.ca/</td>
+            <td>9911 Sidaway Road</td>
+            <td>604-271-5626</td>
+            <td>Tuesday</td>
+            <td>Esther Caldes</td>
+            <td>estercaldes@gmail.com</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Richmond, BC V6W 1C1</td>
+            <td>&nbsp;</td>
+            <td>Thursday</td>
+            <td>Kathie Patterson</td>
+            <td>scooterlady@telus.net</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Nicklaus North GC</td>
+            <td>http://www.golfbc.com/courses/nicklaus_north</td>
+            <td>8080 Nicklaus North Blvd</td>
+            <td>604-938-9898</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Whistler, BC V0N 1B8</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Northlands GC</td>
+            <td>http://golfnorthlands.com/</td>
+            <td>3400 Anne Macdonald Way</td>
+            <td>604-924-2950</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>North Vancouver, BC V7G 2S7</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Pender Harbour GC</td>
+            <td>http://pendergolf.ca/</td>
+            <td>13823 Sunshine Coast Highway</td>
+            <td>604-883-9541</td>
+            <td>Tuesday</td>
+            <td>Wendy Haddock</td>
+            <td>glenbrookhomes@dcc.net.com</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Madeira Park, BC V0N 2H1</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Point Grey G&CC</td>
+            <td>http://www.pointgreygolf.com/</td>
+            <td>3350 Southwest Marine Drive</td>
+            <td>604-266-7171</td>
+            <td>Tuesday</td>
+            <td>Joan Proudfoot</td>
+            <td>joanproudfoot@gmail.com</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Vancouver, BC V6N 3Y9</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Point Roberts GC</td>
+            <td>http://www.pointrobertsgolfcourse.com/</td>
+            <td>1350 Pelican Place</td>
+            <td>360-945-4653 (from USA)</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Point Roberts, WA 98281</td>
+            <td>604-694-0222 (from Canada)</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Quilchena G&CC</td>
+            <td>http://www.qgolfclub.ca/</td>
+            <td>3551 Granville Avenue</td>
+            <td>604-277-1101</td>
+            <td>Tuesday</td>
+            <td>Loma Wing</td>
+            <td>lomaandstephen@icloud.com</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Richmond, BC V7C 1C8</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Richmond CC</td>
+            <td>http://www.richmondcc.ca/</td>
+            <td>9100 Steveston Highway</td>
+            <td>604-241-3700</td>
+            <td>Tuesday</td>
+            <td>Susan Fugman</td>
+            <td>sfugman@telus.net</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Richmond, BC V7A 1M5</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Riverway GC</td>
+            <td>https://golfburnaby.ca/riverway</td>
+            <td>9001 Bill Fox Way</td>
+            <td>604-280-4653</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Burnaby, BC V5J 5J3</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Seymour G&CC</td>
+            <td>http://seymourgolf.com/</td>
+            <td>3723 Mount Seymour Parkway</td>
+            <td>604-929-5491</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>North Vancouver, BC V7G 1C1</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Shaughnessy G&CC</td>
+            <td>http://shaughnessy.org/</td>
+            <td>4300 Southwest Marine Dr</td>
+            <td>604-266-4141</td>
+            <td>Tuesday</td>
+            <td>Nina Henriksen</td>
+            <td>henriksen7@gmail.com</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Vancouver, BC V6N 4A6</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Squamish Valley G&CC</td>
+            <td>http://squamishvalleygolf.com/</td>
+            <td>2458 Mamquam Rd</td>
+            <td>604-898-9521</td>
+            <td>Tuesday</td>
+            <td>Mairi Blair</td>
+            <td>bla8873@telus.net</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Squamish, BC V8B 0H8</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Sunshine Coast G&CC</td>
+            <td>http://www.sunshinecoastgolf.com/</td>
+            <td>3206 Sunshine Coast Highway</td>
+            <td>604-885-9212</td>
+            <td>Tuesday</td>
+            <td>Bev Drombolis</td>
+            <td>bd2006@telus.net</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Gibsons, BC V0N 1V0</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>The Vancouver Golf Club</td>
+            <td>http://www.vancouvergolfclub.com/</td>
+            <td>771 Austin Avenue</td>
+            <td>604-936-3404</td>
+            <td>Tuesday</td>
+            <td>Barrie Moseley</td>
+            <td>barriemose@gmail.com</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Coquitlam, BC V3K 3N2</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Tsawwassen Springs Golf Club</td>
+            <td>http://www.tsawwassensprings.ca/</td>
+            <td>5133 Springs Blvd</td>
+            <td>604-948-1533</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Tsawwassen, BC V4M 0A6</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Business Women</td>
+            <td>Anne Kordyback</td>
+            <td>akordyback@gmail.com</td>
+        </tr>
+        <tr>
+            <td>University GC</td>
+            <td>http://universitygolf.com/</td>
+            <td>5185 University Blvd</td>
+            <td>604-224-1818</td>
+            <td>Tuesday</td>
+            <td>Linda Irwin</td>
+            <td>lindai@shaw.ca</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Vancouver, BC V6T 1X5</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Business Women</td>
+            <td>Lori Hutchinson</td>
+            <td>lhutchinson11@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Whistler GC</td>
+            <td>https://www.whistlergolf.com/</td>
+            <td>4010 Whistler Way</td>
+            <td>604-932-3280</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Whistler, BC V0N 1B4</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Vancouver Chinese Ladies Golf Club</td>
+            <td>&nbsp;</td>
+            <td>Play out of Mayfair Lakes GC</td>
+            <td>&nbsp;</td>
+            <td>Tuesday</td>
+            <td>Cindy He</td>
+            <td>cindyhehh@hotmail.com</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
