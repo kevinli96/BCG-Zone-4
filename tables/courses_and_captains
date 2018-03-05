@@ -12,6 +12,33 @@
     </thead>
     <tbody>
         <tr>
+            <td>Bald Eagle Golf Club</td>
+            <td>https://baldeaglegc.com/</td>
+            <td>1350 Pelican Place</td>
+            <td>360-945-4653 (from USA)</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Point Roberts, WA 98281</td>
+            <td>604-694-0222 (from Canada)</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
             <td>Beach Grove GC</td>
             <td>https://www.beachgrovegolf.com/</td>
             <td>5946 12 Avenue</td>
@@ -259,9 +286,9 @@
             <td>http://vancouver.ca/parks-recreation-culture/fraserview-golf-course.aspx</td>
             <td>7800 Vivian Drive</td>
             <td>604-257-6923</td>
-            <td>Tuesday</td>
-            <td>Carol Thomas</td>
-            <td>carolthomas@telus.net</td>
+            <td>Business Women</td>
+            <td>Bibiane Dorval</td>
+            <td>bibiane@richmondautomall.com</td>
         </tr>
         <tr>
             <td>&nbsp;</td>
@@ -277,9 +304,9 @@
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
-            <td>Business Women</td>
-            <td>Rose Fong</td>
-            <td>rfong@telus.net</td>
+            <td>Tuesday</td>
+            <td>Carol Thomas</td>
+            <td>carolthomas@telus.net</td>
         </tr>
         <tr>
             <td>Furry Creek G&CC</td>
@@ -385,9 +412,9 @@
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td>Business Women</td>
+            <td>Lillian Moe</td>
+            <td>lillymoe48@gmail.com</td>
         </tr>
         <tr>
             <td>Langara GC</td>
@@ -475,9 +502,9 @@
             <td>http://mccleerygolfclub.ca/</td>
             <td>7188 Macdonald Street</td>
             <td>604-257-8191</td>
-            <td>Tuesday</td>
-            <td>Christine Hoag</td>
-            <td>dchoag@shaw.ca</td>
+            <td>Business Women</td>
+            <td>Jeannen Bye</td>
+            <td>jeannebye@shaw.ca</td>
         </tr>
         <tr>
             <td>&nbsp;</td>
@@ -493,9 +520,9 @@
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
-            <td>Business Women</td>
-            <td>Sheila Rouse</td>
-            <td>kokopell12@shaw.ca</td>
+            <td>Tuesday</td>
+            <td>Christine Hoag</td>
+            <td>dchoag@shaw.ca</td>
         </tr>
         <tr>
             <td>Musqueam Golf and Learning Academy</td>
@@ -529,9 +556,10 @@
             <td>http://mylora.ca/</td>
             <td>9911 Sidaway Road</td>
             <td>604-271-5626</td>
-            <td>Tuesday</td>
-            <td>Esther Caldes</td>
-            <td>estercaldes@gmail.com</td>
+            <td>Business Women</td>
+            <td>Carol La Croix</td>
+            <td>carollacroix@hotmail.com</td>
+            
         </tr>
         <tr>
             <td>&nbsp;</td>
@@ -547,9 +575,9 @@
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td>Tuesday</td>
+            <td>Esther Caldes</td>
+            <td>estercaldes@gmail.com</td>
         </tr>
         <tr>
             <td>Nicklaus North GC</td>
@@ -646,33 +674,6 @@
             <td>&nbsp;</td>
             <td>Vancouver, BC V6N 3Y9</td>
             <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td>Point Roberts GC</td>
-            <td>http://www.pointrobertsgolfcourse.com/</td>
-            <td>1350 Pelican Place</td>
-            <td>360-945-4653 (from USA)</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>Point Roberts, WA 98281</td>
-            <td>604-694-0222 (from Canada)</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -926,17 +927,17 @@
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>Business Women</td>
-            <td>Anne Kordyback</td>
-            <td>akordyback@gmail.com</td>
+            <td>Moira Milligan</td>
+            <td>moira.milligan@gmail.com</td>
         </tr>
         <tr>
             <td>University GC</td>
             <td>http://universitygolf.com/</td>
             <td>5185 University Blvd</td>
             <td>604-224-1818</td>
-            <td>Tuesday</td>
-            <td>Linda Irwin</td>
-            <td>lindai@shaw.ca</td>
+            <td>Business Women</td>
+            <td>Lori Hutchinson</td>
+            <td>lhutchinson11@gmail.com</td>      
         </tr>
         <tr>
             <td>&nbsp;</td>
@@ -952,9 +953,9 @@
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
-            <td>Business Women</td>
-            <td>Lori Hutchinson</td>
-            <td>lhutchinson11@gmail.com</td>
+            <td>Tuesday</td>
+            <td>Linda Irwin</td>
+            <td>lindai@shaw.ca</td>
         </tr>
         <tr>
             <td>Whistler GC</td>
