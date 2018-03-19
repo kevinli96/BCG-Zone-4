@@ -9,6 +9,7 @@ String.prototype.hashCode = function() {
   }
   return hash;
 };
+console.log("golfgal".hashCode())
 
 $(function() {
   $('#loginButton').on('click', handleSubmit);
@@ -21,7 +22,7 @@ function handleSubmit() {
 
 
   $('#incorrectPass').remove();
-  if (user.hashCode() === 204315440 && pass.hashCode() === -1998822189) {
+  if (user.hashCode() === 204315440 && pass.hashCode() === -1885494666) {
     window.location = "secure/rosters.html";
     console.log("correct password")
   } else {
