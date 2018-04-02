@@ -183,6 +183,9 @@ Before we configure git-ftp, make sure you are in the folder corresponding to th
 Execute the following commands in Powershell/command prompt
 
 ```sh
+# Pull in the most recent commit
+git pull
+
 # Setup
 git config git-ftp.url "ftp://ftp.bcgazone4.org/public_html/women"
 git config git-ftp.user "bcga"
