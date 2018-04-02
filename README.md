@@ -14,6 +14,7 @@
   * [Installations](#installations)
   * [Local Site Setup](#local-site-setup)
   * [Git Workflow](#git-workflow)
+  * [Pushing to Production](#pushing-to-production)
 * [Tips](#tips)
   * [Helpful Git Commands](#helpful-git-commands)
   * [Helpful Terminal Commands](#helpful-terminal-commands)
@@ -151,6 +152,62 @@ Because of [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (cross
   3. Push the committed code to the master version. If there is an error denoting upstream branches, execute the full command ("git push -u origin master"). Otherwise, "git push" will suffice.
 
   If at any point something unexpected comes up, CTRL+D or CTRL+C will terminate command execution and will return you to the command prompt.
+
+### Pushing to Production
+
+We will be using [git-ftp](https://github.com/git-ftp/git-ftp/blob/master/README.md) to upload the most recently committed files from our github repository to the live site. 
+
+**Installation** (for Windows systems):
+
+1. Download [curl](https://curl.haxx.se/dlwiz/) 
+2. Open Git Bash, located in `C:\Program Files (x86)\Git` by default, and execute the following commands.
+
+```bash
+curl https://raw.githubusercontent.com/git-ftp/git-ftp/master/git-ftp > /bin/git-ftp
+chmod 755 /bin/git-ftp
+```
+
+From there, you should be able to execute `git-ftp` in your command prompt (Windows Powershell)
+
+```bash
+> git-ftp
+git-ftp <action> [<options>] [<url>]
+```
+
+That is, you won't receive an error when you enter `git-ftp` in the command line, but rather it prompts you for options to append onto the `git-ftp` command.
+
+**Setup**:
+
+Before we configure git-ftp, make sure you are in the folder corresponding to the github repository on your local machine. Then ensure that the most recent commit to the github repository is the latest pushed version of the production site. We need to make sure of this because git-ftp will only push to the live site the files that been modified relative to your last commit. Therefore, if we have pulled in the most recent commit (by doing a `git pull`), and begin our setup of git-ftp, then we will have successfully synced up git-ftp to match the commit history of the github repository. 
+
+Execute the following commands in Powershell/command prompt
+
+```sh
+# Setup
+git config git-ftp.url "ftp://ftp.bcgazone4.org/public_html/women"
+git config git-ftp.user "bcga"
+git config git-ftp.password "Ke#knw?e9ZsUQ!)J7H"
+
+# Since the files already exist on the production site, we 'catchup' git-ftp so as to tell git-ftp that future changes will be relative to our most recent commit
+git ftp catchup
+
+# Test to ensure git-ftp has been configured correctly
+echo "testing git ftp" >> git_ftp_test.txt
+git commit index.txt -m "Add new content"
+git ftp push
+# 1 file to sync:
+# [1 of 1] Buffered for upload 'index.txt'.
+# Uploading ...
+# Last deployment changed to ded01b27e5c785fb251150805308d3d0f8117387.
+```
+
+If you receive something similar to the last message above, then git-ftp has been successfully configured.
+
+In the future, once changes have been added and committed (and tested on localhost to ensure that they are working properly), all that is needed is to push the modified files onto the production site is the following.
+
+```sh
+git ftp push 
+```
 
 ## Tips
 
