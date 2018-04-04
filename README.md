@@ -159,15 +159,16 @@ We will be using [git-ftp](https://github.com/git-ftp/git-ftp/blob/master/README
 
 **Installation** (for Windows systems):
 
-1. Download [curl](https://curl.haxx.se/dlwiz/) install to C:\curl
-   Do Not Type the Quotes ""
-2. In your "Search Bar" type "Enviornment Variable" press the enter key
-3. Click on the "Environment Variables Tab" bottom right
-4. Under the "User" click "New"
-5. "Variable name" = "PATH"
-6. "Variable value" = C:\curl
-7. You can also do steps 4, 5, & 6 under "System variables"
-7. Open Git Bash, located in `C:\Program Files (x86)\Git` by default, and execute the following commands.
+1. Delete your "Git" directory, either in C:/Git or C: Program Files/Git
+2. Download [Git for Windows](https://git-for-windows.github.io/)
+3. Install using defaults
+4. In your search bar type "Environment Variables" click on the words
+5. Under "User variables .." click on "NEW"
+6. In the "Variable Name" type "PATH"  (Do not type the quotes "")
+7. In the "Variable Value" type "C:\Program Files\Git\mingw64\bin;"
+  
+
+Right click and "Run as Administrator" on Git Bash on your desktop or it is located in `C:\Program Files\Git` by default, and execute the following commands.
 
 ```bash
 curl https://raw.githubusercontent.com/git-ftp/git-ftp/master/git-ftp > /bin/git-ftp
@@ -187,7 +188,7 @@ That is, you won't receive an error when you enter `git-ftp` in the command line
 
 Before we configure git-ftp, make sure you are in the folder corresponding to the github repository on your local machine. Then ensure that the most recent commit to the github repository is the latest pushed version of the production site. We need to make sure of this because git-ftp will only push to the live site the files that been modified relative to your last commit. Therefore, if we have pulled in the most recent commit (by doing a `git pull`), and begin our setup of git-ftp, then we will have successfully synced up git-ftp to match the commit history of the github repository. 
 
-Execute the following commands in Powershell/command prompt
+Execute the following commands in Powershell/command prompt 
 
 ```sh
 # Pull in the most recent commit
@@ -196,7 +197,7 @@ git pull
 # Setup
 git config git-ftp.url "ftp://ftp.bcgazone4.org/public_html/women"
 git config git-ftp.user "bcga"
-git config git-ftp.password "Ke#knw?e9ZsUQ!)J7H"
+git config git-ftp.password "Ke#knw?e9ZsUQ!)J7H" (type the quotes for this)
 
 # Since the files already exist on the production site, we 'catchup' git-ftp so as to tell git-ftp that future changes will be relative to our most recent commit
 git ftp catchup
