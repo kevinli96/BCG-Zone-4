@@ -195,9 +195,10 @@ Execute the following commands in Powershell/command prompt
 git pull
 
 # Setup
+Type exactly as shown:
 git config git-ftp.url "ftp://ftp.bcgazone4.org/public_html/women"
 git config git-ftp.user "bcga"
-git config git-ftp.password "Ke#knw?e9ZsUQ!)J7H" (type the quotes for this)
+git config git-ftp.password "Ke#knw?e9ZsUQ!)J7H" 
 
 # Since the files already exist on the production site, we 'catchup' git-ftp so as to tell git-ftp that future changes will be relative to our most recent commit
 git ftp catchup
