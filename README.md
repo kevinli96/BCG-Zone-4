@@ -159,8 +159,15 @@ We will be using [git-ftp](https://github.com/git-ftp/git-ftp/blob/master/README
 
 **Installation** (for Windows systems):
 
-1. Download [curl](https://curl.haxx.se/dlwiz/) 
-2. Open Git Bash, located in `C:\Program Files (x86)\Git` by default, and execute the following commands.
+1. Download [curl](https://curl.haxx.se/dlwiz/) install to C:\curl
+   Do Not Type the Quotes ""
+2. In your "Search Bar" type "Enviornment Variable" press the enter key
+3. Click on the "Environment Variables Tab" bottom right
+4. Under the "User" click "New"
+5. "Variable name" = "PATH"
+6. "Variable value" = C:\curl
+7. You can also do steps 4, 5, & 6 under "System variables"
+7. Open Git Bash, located in `C:\Program Files (x86)\Git` by default, and execute the following commands.
 
 ```bash
 curl https://raw.githubusercontent.com/git-ftp/git-ftp/master/git-ftp > /bin/git-ftp
@@ -196,7 +203,10 @@ git ftp catchup
 
 # Test to ensure git-ftp has been configured correctly
 echo "testing git ftp" >> git_ftp_test.txt
-git commit index.txt -m "Add new content"
+git add -A
+git commit -m "Add new content"
+Ensure that you can access the git_ftp_test.txt on your Local Host - this is the link https://kevinli96.github.io/BCG-Zone-4/git_ftp_test.txt
+
 git ftp push
 # 1 file to sync:
 # [1 of 1] Buffered for upload 'index.txt'.
