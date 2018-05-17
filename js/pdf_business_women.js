@@ -1,8 +1,10 @@
 // If absolute URL from the remote server is provided, configure the CORS
 // header on that server.
-var url = '/docs/bw/bw_constitution_bylaws.pdf';
+var url = 'docs/bw/bw_constitution_bylaws.pdf';
 
-// var url = '//cdn.mozilla.net/pdfjs/tracemonkey.pdf';
+if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
+  url = "/" + url;
+}
 
 // Loaded via <script> tag, create shortcut to access PDF.js exports.
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
