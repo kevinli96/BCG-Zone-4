@@ -32,7 +32,14 @@
       <h1 class="title">Zone 4 Constitution/Bylaws</h1>
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
-          <iframe src="docs/about/constitution_bylaws.pdf" allowfullscreen></iframe>
+          <iframe src="docs/about/constitution_bylaws.pdf" class="mobile_hidden" allowfullscreen></iframe>
+          <div class="mobile_only">
+            <button id="prev" class="btn btn-default" type="button">Previous</button>
+            <button id="next" class="btn btn-default" type="button">Next</button> &nbsp; &nbsp;
+            <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+          </div>
+
+          <canvas id="the-canvas" class="mobile_only"></canvas>
         </div>
       </div>
 
@@ -43,6 +50,9 @@
   <!-- jQuery -->
   <script src="js/jquery.js"></script>
   <!-- Bootstrap Core JavaScript -->
+  <!-- <script src="https://cdnjs.com/libraries/pdf.js"></script> -->
+  <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+  <script src="js/pdf_constitution.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/header.js"></script>
   <script src="js/footer.js"></script>
