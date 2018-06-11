@@ -1,0 +1,42 @@
+<style type="text/css">
+	table.tableizer-table {
+		font-size: 12px;
+		border: 1px solid #CCC; 
+		font-family: Arial, Helvetica, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #104E8B; 
+		color: #FFF;
+		font-weight: bold;
+	}
+</style>
+<table class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th>Event:</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th></tr></thead><tbody>
+ <tr><td>Played At:</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>2018 Zone 3-4 4 Ball</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>Tsawwassen Springs</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>E08 - Short Draw Report</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>Round Num:  1           Start Date:       Jun 18, 2018</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>Time</td><td>Hole</td><td>Grp</td><td>Competitor 1</td><td>Competitor 2</td><td>Competitor 3</td><td>Competitor 4</td></tr>
+ <tr><td>8:30 AM 01a</td><td>&nbsp;</td><td>1</td><td>Michaud, Gayle</td><td>Morin, Dianne</td><td>Larter, Donna</td><td>Clark, Betty</td></tr>
+ <tr><td>8:30 AM 01b</td><td>&nbsp;</td><td>2</td><td>Work, Sherry</td><td>Lichty, Gail</td><td>Brotherston, Linda</td><td>Weatherhead, Laura</td></tr>
+ <tr><td>8:30 AM 11a</td><td>&nbsp;</td><td>3</td><td>Armstrong, Chris</td><td>Lindsay, Audrey</td><td>Jorgenson, Barb</td><td>Jacobson, Darcy</td></tr>
+ <tr><td>8:30 AM 11b</td><td>&nbsp;</td><td>4</td><td>McDonald, Monique</td><td>Jodoin,, Trish</td><td>Roy, Michelle</td><td>McWhinnie, Gwen</td></tr>
+ <tr><td>8:30 AM 12a</td><td>&nbsp;</td><td>5</td><td>Brooks, Kathy</td><td>Traquair, Patti</td><td>DeMarco, Chris</td><td>Winton, Julie</td></tr>
+ <tr><td>8:30 AM 12b</td><td>&nbsp;</td><td>6</td><td>Booth, Barbara</td><td>Chang, Judy</td><td>Sthankiya, Jennifer</td><td>MacKinnon, Sandra</td></tr>
+ <tr><td>8:30 AM   13</td><td>&nbsp;</td><td>7</td><td>Peters, Susan</td><td>Thomas, Carol</td><td>Martin, Julie</td><td>Lo, Helen</td></tr>
+ <tr><td>8:30 AM 14a</td><td>&nbsp;</td><td>8</td><td>Ravelo, Lily</td><td>LaCroix, Carol</td><td>Carey, Nancy</td><td>Brkich, Vicky</td></tr>
+ <tr><td>8:30 AM 14b</td><td>&nbsp;</td><td>9</td><td>Huggard, Penne</td><td>Turner, Linda</td><td>Cruickshank, Judy</td><td>Komm, Ricki</td></tr>
+ <tr><td>8:30 AM   15</td><td>&nbsp;</td><td>10</td><td>Bower, Janis</td><td>Richards, Sherry</td><td>Yau, Lily</td><td>Mundick, Susan</td></tr>
+ <tr><td>8:30 AM 16a</td><td>&nbsp;</td><td>11</td><td>Milligan, Moira</td><td>Kordyback, Anne</td><td>Stafiej, Faye</td><td>Buckle, Laura</td></tr>
+ <tr><td>8:30 AM 16b</td><td>&nbsp;</td><td>12</td><td>Dobie, Leslie</td><td>Wisniewski, Vicki</td><td>Mothersill, Carol</td><td>Moore, Reyna</td></tr>
+ <tr><td>8:30 AM   17</td><td>&nbsp;</td><td>13</td><td>Fraser-Innes, Gail</td><td>O'Connor, Pam</td><td>Davies, Laureen</td><td>Dick, Sandra</td></tr>
+ <tr><td>8:30 AM 18a</td><td>&nbsp;</td><td>14</td><td>Guthrie, Jo</td><td>Darling, Beulah</td><td>Jiang, Helen (Yibo)</td><td>Qiao, Jane</td></tr>
+ <tr><td>8:30 AM 18b</td><td>&nbsp;</td><td>15</td><td>Kirkpatrick, Janice</td><td>Kirkpatrick, Karen</td><td>Wong, Betty</td><td>Lim, Christina</td></tr>
+ <tr><td>Page 1 of 1</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td></td></tr>
+</tbody></table>
