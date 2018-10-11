@@ -27,16 +27,16 @@ function loadAll() {
 }
 
 function loadJunior() {
-  $.get("tournaments/junior_girls.html", function(data) {
+  $.get("tournaments/junior-girls.html", function(data) {
     $(data).appendTo("#all")
     $(data).appendTo("#junior")
   })
 }
 
 function loadBusinessWomen() {
-  $.get("tournaments/business_women.html", function(data) {
+  $.get("tournaments/business-women.html", function(data) {
     $(data).appendTo("#all")
-    $(data).appendTo("#business_women")
+    $(data).appendTo("#business-women")
   })
 }
 
@@ -48,8 +48,8 @@ function loadProvincial() {
 }
 
 function loadPastResults() {
-  $.get("tournaments/past_results.html", function(data) {
-    $(data).appendTo("#past_results")
+  $.get("tournaments/past-results.html", function(data) {
+    $(data).appendTo("#past-results")
     // $(".tournamentBody").attr("data-spy", "scroll").attr("data-target", "#myScrollSpy")
   })
 }

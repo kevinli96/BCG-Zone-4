@@ -3,7 +3,7 @@ $(window).on("load", function() {
 });
 
 function loadAll() {
-  $.get("tables/past_champs_amateur.html", function(data) {
+  $.get("tables/past-champs-amateur.html", function(data) {
     $(data).appendTo("#amateurChampions")
   })
   .done(loadJunior)
@@ -13,25 +13,25 @@ function loadAll() {
 }
 
 function loadJunior() {
-  $.get("tables/past_champs_junior.html", function(data) {
+  $.get("tables/past-champs-junior.html", function(data) {
     $(data).appendTo("#juniorChampions")
   })
 }
 
 function loadSenior() {
-  $.get("tables/past_champs_senior_Z34.html", function(data) {
-    $(data).appendTo("#seniorChampions_Z34")
+  $.get("tables/past-champs-senior-Z34.html", function(data) {
+    $(data).appendTo("#seniorChampions-Z34")
   })
 }
 
 function loadSenior_Z4() {
-  $.get("tables/past_champs_senior_Z4.html", function(data) {
-    $(data).appendTo("#seniorChampions_Z4")
+  $.get("tables/past-champs-senior-Z4.html", function(data) {
+    $(data).appendTo("#seniorChampions-Z4")
   })
 }
 
 function load24ball_Z34() {
-  $.get("tables/past_champs_24ball_Z34.html", function(data) {
-    $(data).appendTo("#24ball_Z34")
+  $.get("tables/past-champs-24ball-Z34.html", function(data) {
+    $(data).appendTo("#24ball-Z34")
   })
 }

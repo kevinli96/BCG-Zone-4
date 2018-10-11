@@ -4,7 +4,7 @@ $(window).on("load", function() {
 });
 
 function loadAll() {
-  $.get("tables/executive_table.html", function(data) {
+  $.get("tables/executive-table.html", function(data) {
     $(data).appendTo("#zone4Executive")
     $('#zone4Executive table').removeClass().addClass("table table-hover table-list-search")
     $('#zone4Executive table thead').removeClass().addClass("thead-inverse")
@@ -21,7 +21,7 @@ function loadAll() {
 }
 
 function loadBusinessExecutive() {
-  $.get("tables/bw_executive_table.html", function(data) {
+  $.get("tables/bw-executive-table.html", function(data) {
     $(data).appendTo("#businessTable")
     $('#businessTable table').removeClass().addClass("table table-hover table-list-search")
     $('#businessTable table thead').removeClass().addClass("thead-inverse")

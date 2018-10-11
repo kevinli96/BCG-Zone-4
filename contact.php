@@ -4,10 +4,10 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'kerui_li@brown.edu';
+$from = 'zone4womenscommittee@gmail.com';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'kerui_li@brown.edu';
+$sendTo = 'zone4womenscommittee@gmail.com';
 
 // subject of the email
 $subject = 'New message from BCG Zone 4';

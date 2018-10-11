@@ -1,6 +1,6 @@
 // If absolute URL from the remote server is provided, configure the CORS
 // header on that server.
-var url = 'docs/bw/bw_constitution_bylaws.pdf';
+var url = 'docs/bw/bw-constitution-bylaws.pdf';
 
 if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
   url = "/" + url;
