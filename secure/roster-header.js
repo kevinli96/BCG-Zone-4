@@ -1,7 +1,7 @@
 $(window).on("load", function() {
   var path = window.location.pathname;
   var page = path.split("/").pop();
-    $.get("roster_header.html", function(data) {
+    $.get("roster-header.html", function(data) {
       if (page === "index.html") {
         $(data).hide().prependTo("body").slideDown(1500);
       } else {
