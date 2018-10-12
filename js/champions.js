@@ -24,13 +24,13 @@ function loadSenior() {
   })
 }
 
-function loadSenior_Z4() {
+function loadSeniorZ4() {
   $.get("tables/past-champs-senior-Z4.html", function(data) {
     $(data).appendTo("#seniorChampionsZ4")
   })
 }
 
-function load24ball_Z34() {
+function load24ballZ34() {
   $.get("tables/past-champs-24ball-Z34.html", function(data) {
     $(data).appendTo("#24ballZ34")
   })
