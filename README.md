@@ -98,17 +98,17 @@ Because of [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (cross
 
   The number 8888 is an arbitrary port number. This can be any port, but the default is usually 8888. You should see something similar to the following:
 
-  <img src="img/docs/server_startup.png" width="600">
+  <img src="img/docs/server-startup.png" width="600">
 
   The ~/workspace/BCGA/BCG-Zone-4 is the location of the terminal/command prompt. This will be different depending on where you have downloaded (git cloned) the BCG-Zone-4 directory. For example, this could be ~/Desktop/BCG-Zone-4, if you downloaded the directory onto your desktop.
 
 2. Open a web browser (Chrome works best) and go to the address: *localhost:8888*
 
-  <img src="img/docs/localhost_chrome.png" width="800">
+  <img src="img/docs/localhost-chrome.png" width="800">
 
   Notice that the terminal/command prompt will output a few lines to confirm that you are retrieving resources (images and formatting scripts) from this local python web server.
 
-  <img src="img/docs/localhost_terminal_response.png" width="600">
+  <img src="img/docs/localhost-terminal-response.png" width="600">
 
 ### Git Workflow
 
@@ -130,7 +130,7 @@ Because of [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (cross
 
   The cache will be disabled only when the chrome developer tools pane is open. There's not much else in the network tab that is worth exploring, but the elements tab provides you with an in-browser look at the html code of the page. This is useful because the button on the top-left corner of the developer tools window will automatically locate in the html code the highlighted element. This is shown in the screenshot below. 
 
-  ![Chrome developer tools](img/docs/chrome_developer_tools.png)
+  ![Chrome developer tools](img/docs/chrome-developer-tools.png)
 
   An alternative way of disabling caching is to open up localhost in an incognito tab (ctrl + shift + n). 
 
@@ -207,7 +207,7 @@ git ftp catchup
 echo "testing git ftp" >> git_ftp_test.txt
 git add -A
 git commit -m "Add new content"
-Ensure that you can access the git_ftp_test.txt on your Local Host - this is the link https://kevinli96.github.io/BCG-Zone-4/git_ftp_test.txt
+Ensure that you can access the git-ftp-test.txt on your Local Host - this is the link https://kevinli96.github.io/BCG-Zone-4/git-ftp-test.txt
 
 git ftp push
 # 1 file to sync:
